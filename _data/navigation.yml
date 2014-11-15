@@ -1,7 +1,7 @@
 # Site navigation links
 
-- title: About
-  url: /about/
+- title: Bio
+  url: /bio/
 
 - title: Articles
   url: /articles/
@@ -9,8 +9,7 @@
 - title: Blog
   url: /blog/
 
-- title: Theme Setup
-  url: /theme-setup/
+- title: Works
+  url: /works/
 
-- title: Made Mistakes
-  url: http://mademistakes.com
+

@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Blog
-excerpt: "An archive of blog posts sorted by date."
+excerpt: ""
+logo: logo_anthony.png
 ---
 
 <ul class="post-list">
