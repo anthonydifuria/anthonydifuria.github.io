@@ -22,10 +22,12 @@ I tend to look deeply all that surrounds me , creating a sincere empathy with th
  <div markdown="0"><a href="/works/eterotopie" class="btn">Eterotopie - 2014</a></div>
 <div markdown="0"><a href="/works/beyond" class="btn">Beyond The Human Atom - 2014</a></div>
 <div markdown="0"><a href="/works/crytin" class="btn">Through the Space of Crying  - 2014</a></div>
-<div markdown="0"><a href="/works/dedivinaproportione" class="btn">The Divina Proportione  - 2014</a></div>
+<div markdown="0"><a href="/works/dedivinaproportione" class="btn">Ambisonics Software</a></div>
+<div markdown="0"><a href="/works/ambisonicsanalysis" class="btn">Ambisonics Sound Analysis</a></div>
 ---
 
 ## Sound Design
+
 ---
 
 ## Sound Engineer
