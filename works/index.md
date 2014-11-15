@@ -19,7 +19,7 @@ I tend to look deeply all that surrounds me , creating a sincere empathy with th
 
 ## Ambisonics
 
- <div markdown="0"><a href="/works/prova" class="btn">Eterotopie 2014</a></div>
+ <div markdown="0"><a href="/works/eterotopie" class="btn">Eterotopie 2014</a></div>
 ---
 
 
