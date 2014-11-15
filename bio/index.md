@@ -24,3 +24,6 @@ In August 2014, He works on the his project "Beyond the human atom" for a site-s
 Most recently he worked as analyst for the project "Fragments of extinction - A new recording approach in primary equatorial forest" by David Monacchi.
 
 His work ranges from Sound Research, Sound Designer, programming, live electronics, Sound Installations, spatialization techniques, sound engineer and field recordings.
+
+
+### Sound Research
