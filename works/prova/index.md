@@ -1,6 +1,6 @@
 ---
 layout: page
-title: prova
+title: ETHEROTOPIE
 excerpt: ""
 modified: 
 image:
@@ -9,10 +9,7 @@ image:
   creditlink: 
 ---
 
-* Table of Contents
-{:toc}
 
-## Etherotopie 2014
----
+
 
 
