@@ -9,6 +9,13 @@ image:
   creditlink: 
 ---
 
+---
+I usually try to establish a multi-system relationship.
+I try to link systems that apparently speak a language very different through a multidimensional vision, so we realize that they have much in common.
+I search the conceptual similarities between science, society, religion, psychology etc. and the "SOUND" through a deep analysis of the systems for a subsequent development and implementation of the final work .
+I tend to look deeply all that surrounds me , creating a sincere empathy with the environment. The love for the sound improves human and natural communications, it sensitizes my soul and helping me to understand the world.
+---
+
 * Table of Contents
 {:toc}
 
