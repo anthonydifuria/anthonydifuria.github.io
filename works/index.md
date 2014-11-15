@@ -25,4 +25,14 @@ I tend to look deeply all that surrounds me , creating a sincere empathy with th
 <div markdown="0"><a href="/works/dedivinaproportione" class="btn">The Divina Proportione  - 2014</a></div>
 ---
 
+## Sound Design
+---
+
+## Sound Engineer
+---
+
+## Field Recording
+---
+
+
 
