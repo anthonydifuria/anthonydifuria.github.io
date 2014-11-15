@@ -13,7 +13,9 @@ image:
 I usually try to establish a multi-system relationship.
 I try to link systems that apparently speak a language very different through a multidimensional vision, so we realize that they have much in common.
 I search the conceptual similarities between science, society, religion, psychology etc. and the "SOUND" through a deep analysis of the systems for a subsequent development and implementation of the final work .
-I tend to look deeply all that surrounds me , creating a sincere empathy with the environment. The love for the sound improves human and natural communications, it sensitizes my soul and helping me to understand the world.
+I tend to look deeply all that surrounds me , creating a sincere empathy with the environment. 
+
+The love for the sound improves human and natural communications, it sensitizes my soul and helping me to understand the world.
 
 ---
 
@@ -31,6 +33,10 @@ I tend to look deeply all that surrounds me , creating a sincere empathy with th
 ---
 
 ## Sound Engineer
+<div markdown="0"><a href="/works/eterotopie" class="btn">The Warm Feeling of Cold - Alex Paolini</a></div>
+<div markdown="0"><a href="/works/eterotopie" class="btn">Mastering Coffee Shower</a></div>
+<div markdown="0"><a href="/works/eterotopie" class="btn">Sound Engineer</a></div>
+<div markdown="0"><a href="/works/eterotopie" class="btn">Recording Unreleased Music (FERRONI -ZANDONAI)</a></div>
 ---
 
 ## Field Recording
@@ -39,11 +45,17 @@ I tend to look deeply all that surrounds me , creating a sincere empathy with th
 <div markdown="0"><a href="/works/eterotopie" class="btn">SoundScape Teramo</a></div>
 <div markdown="0"><a href="/works/eterotopie" class="btn">SoundScape Pesaro</a></div>
 <div markdown="0"><a href="/works/eterotopie" class="btn">SoundScape - Caves of Stiffe</a></div>
-<div markdown="0"><a href="/works/eterotopie" class="btn">Recording Unreleased Music (FERRONI -ZANdonai)</a></div>
 <div markdown="0"><a href="/works/eterotopie" class="btn">SoundScape - Giulio Perticari Park</a></div>
 <div markdown="0"><a href="/works/eterotopie" class="btn">SoundWalk - Hildegard Westerkamp </a></div>
-
 ---
+
+## Teaching
+<div markdown="0"><a href="/works/eterotopie" class="btn">Music</a></div>
+<div markdown="0"><a href="/works/eterotopie" class="btn">JuliaJazz</a></div>
+<div markdown="0"><a href="/works/eterotopie" class="btn">Sound Engineer</a></div>
+---
+
+
 
 
 
