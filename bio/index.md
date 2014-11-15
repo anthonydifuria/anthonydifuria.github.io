@@ -27,8 +27,19 @@ His work ranges from Sound Research, Sound Designer, programming, live electroni
 
 
 #### Sound Research
+---
+
 #### Sound Designer
+---
+
 #### Sound Installation
+---
+
 #### Ambisonic Compositions
+---
+
 #### Sound Engineer
+---
+
 #### Recording
+---
