@@ -12,7 +12,7 @@ image:
 * Table of Contents
 {:toc}
 
- <div markdown="0"><a href="anthonydifuria.github.io/works/prova" class="btn"></a>Eterotopie 2014</div>
+ <div markdown="0"><a href="/works/prova" class="btn">Eterotopie 2014</a></div>
 
 
 ## Meeting FKL 2014 Firenze
