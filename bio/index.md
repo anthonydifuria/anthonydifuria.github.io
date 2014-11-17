@@ -56,6 +56,7 @@ His work ranges from Sound Research, Sound Designer, programming, live electroni
 
 ## SoundScape - Field Recording
 
+- SoundScape - Quebec City 2014
 - Sound Archive - PIANPICOLLO SELVATICO 2014
 - "Per chi suona il paesaggio" - MEETING FKL Florence 2014 
 - SUONO - RAD'ART 2014
