@@ -64,6 +64,12 @@ His work ranges from Sound Research, Sound Designer, programming, live electroni
 - SoundWalk in Giulio Perticari Park - with Stefano Vinciarelli and Niccolò Di Gregorio 2012
 - "Ear to the earth" Soundwalk with Hildegard Westerkamp - PESARO 2012 
 
+## Teaching
+
+Guitar and Music Theory - Overtones Studio San Benedetto del Tronto
+Sound Engineer - with Stefano Segatori Overtones Studio 2013
+Electronic Music and Sound Perception - JuliaJazz 2013
+
  <div markdown="0"><a href="/works" class="btn">WORKS</a></div>
 
  <div markdown="0"><a href=" https://dl.dropboxusercontent.com/u/14847530/anthony_di_furia_CV.pdf" class="btn">CURRICULUM VITAE</a></div> 
