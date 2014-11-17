@@ -25,6 +25,18 @@ Most recently he worked as analyst for the project "Fragments of extinction - A 
 
 His work ranges from Sound Research, Sound Designer, programming, live electronics, Sound Installations, spatialization techniques, sound engineer and field recordings.
 
+
+## Ambisonics
+
+Beyond the Human Atom - La Chambre Blanche 2014
+Etherotopie - Conservatory of Pesaro SPACE 2014
+Through the space of crying - LAC2014 ZKM Kubus 2014
+Eco-Acustic Analysis - A new Recording Approach in Primary Equatorial Forests by DAVID MONACCHI 2014
+Ambisonics Spatialization - De Divina Proportione by SIMONE SORINI and DAVID MONACCHI 2011
+
+## Sound Design 
+
+
  <div markdown="0"><a href="/works" class="btn">WORKS</a></div>
 
  <div markdown="0"><a href=" https://dl.dropboxusercontent.com/u/14847530/anthony_di_furia_CV.pdf" class="btn">CURRICULUM VITAE</a></div> 
