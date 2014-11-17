@@ -34,8 +34,34 @@ His work ranges from Sound Research, Sound Designer, programming, live electroni
 - Eco-Acustic Analysis - A new Recording Approach in Primary Equatorial Forests by DAVID MONACCHI 2014
 - Ambisonics Spatialization - De Divina Proportione by SIMONE SORINI and DAVID MONACCHI 2011
 
-## Sound Design 
+## Sound Art
 
+- "LA FUGA" - with Stefano Vinciarelli - Festival Ville Castella 2013
+- METEOPHONIE - ideated by Eugenio Giordani with Stefano Vinciarelli and Niccolò Di Gregorio PESARO 2013
+- Sound Installation ERRATICA #2 "Paper White" with Stefano Vinciarelli GUBBIO 2013
+- Programming and Recording "Salomè" by Oscar Wild - with David Monacchi THEATER FANO 2012
+- Sound Installation ERRATICA #1 - with Stefano Vinciarelli and Niccolò Di Gregorio 2012
+- SCAMBI MICROFESTIVAL - Fossobrone 2011
+- Conference Show "Bestiario filologico e fantastico" ERMANNO CAVAZZONI - with Eugenio Giordani PESARO 2012
+- URLO Urbino Laptop Orchestra - 2011
+- Sound Design Theater "Vai a vedere i gorilla" by Gabriele Freytag - Accademia delle belle arti di Brera MILANO 2011
+- Sound Design Theater "La bellezza salverà il mondo" MOBY DICK Melville - FANO 2011
+
+## Sound Engineer
+
+- The Warm Feeling of Cold - ALEX PAOLINI 2013
+- Pulsazioni 1 - by Stefano Boffi 2013
+- Recording unreleased music FERRONI ZANDONAI - with David Monacchi TODI 2013
+- "Ascolta la musica che ti ascolta" The music of the Botanical Garden by WALTER BRANCHI and DAVID MONACCHI - TRIESTE 2011
+
+## SoundScape - Field Recording
+
+- Sound Archive - PIANPICOLLO SELVATICO 2014
+- "Per chi suona il paesaggio" - MEETING FKL Florence 2014 
+- SUONO - RAD'ART 2014
+- SoundWalk - Pesaro 2013
+- SoundWalk in Giulio Perticari Park - with Stefano Vinciarelli and Niccolò Di Gregorio 2012
+- "Ear to the earth" Soundwalk with Hildegard Westerkamp - PESARO 2012 
 
  <div markdown="0"><a href="/works" class="btn">WORKS</a></div>
 
