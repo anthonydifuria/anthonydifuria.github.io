@@ -28,11 +28,11 @@ His work ranges from Sound Research, Sound Designer, programming, live electroni
 
 ## Ambisonics
 
-Beyond the Human Atom - La Chambre Blanche 2014
-Etherotopie - Conservatory of Pesaro SPACE 2014
-Through the space of crying - LAC2014 ZKM Kubus 2014
-Eco-Acustic Analysis - A new Recording Approach in Primary Equatorial Forests by DAVID MONACCHI 2014
-Ambisonics Spatialization - De Divina Proportione by SIMONE SORINI and DAVID MONACCHI 2011
+- Beyond the Human Atom - La Chambre Blanche 2014
+- Etherotopie - Conservatory of Pesaro SPACE 2014
+- Through the space of crying - LAC2014 ZKM Kubus 2014
+- Eco-Acustic Analysis - A new Recording Approach in Primary Equatorial Forests by DAVID MONACCHI 2014
+- Ambisonics Spatialization - De Divina Proportione by SIMONE SORINI and DAVID MONACCHI 2011
 
 ## Sound Design 
 
