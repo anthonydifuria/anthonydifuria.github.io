@@ -16,7 +16,7 @@ thanks to
 
 <div markdown="0"><a href="http://www.twinbit.it/it" class="btn">TWINBIT</a></div>
 
-#####Carol-Ann Belzil Normand for lOGO
+#####Carol-Ann Belzil Normand for "website LOGO"
 
 <div markdown="0"><a href="http://carolannbelzilnormand.com/" class="btn">Carol-Ann Belzil Normand</a></div>
 
