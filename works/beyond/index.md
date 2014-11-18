@@ -1,10 +1,10 @@
 ---
 layout: page
-title: ETHEROTOPIE
+title: Beyond the Human Atom
 excerpt: ""
 modified: 
 image:
-  feature: spettro.jpg
+  feature: anthony_carol_ann.jpg
   credit: 
   creditlink: 
 ---
