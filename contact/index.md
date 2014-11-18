@@ -13,7 +13,7 @@ image:
 
 ##Anthony Di Furia - Italy
 
-###email: anthonydifuria.sound@gmail.com
+###email: anthonydifuria.sound[at]gmail.com
 
 
 
