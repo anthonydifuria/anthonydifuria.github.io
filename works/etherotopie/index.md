@@ -4,7 +4,7 @@ title: ETHEROTOPIE
 excerpt: ""
 modified: 
 image:
-  feature: spettro.jpg
+  feature: etherotopie.jpg
   credit: 
   creditlink: 
 ---
