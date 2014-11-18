@@ -10,8 +10,7 @@ image:
 ---
 
 ---
-thanks to Paolo Mainardi Twinbit CTO 
-<div markdown="0"> <ahref="http://www.twinbit.it/it"class="btn">TWINBIT</a></div>
+thanks to Paolo Mainardi Twinbit CTO - http://www.twinbit.it/it
 ---
 
 
