@@ -16,8 +16,9 @@ highlighter: pygments
 sass:
   sass_dir: _sass
   style: compressed
-
- gems: [jekyll-sitemap, jekyll-test-plugin, jekyll-jsonify, jekyll-assets]
+gems:
+- jekyll-sitemap
+ 
 
 
 kramdown:
