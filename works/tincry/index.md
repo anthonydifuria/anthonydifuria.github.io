@@ -1,10 +1,10 @@
 ---
 layout: page
-title: ETHEROTOPIE
+title: Through the Space of Crying
 excerpt: ""
 modified: 
 image:
-  feature: spettro.jpg
+  feature: tin.jpg
   credit: 
   creditlink: 
 ---
