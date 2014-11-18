@@ -9,6 +9,6 @@ image:
   creditlink: 
 ---
 
-# Beyond the human atom
+### Beyond the human atom
 
 ---
