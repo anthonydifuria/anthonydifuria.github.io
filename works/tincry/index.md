@@ -11,7 +11,9 @@ image:
 
 ---
 ## Linux Audio Conference 2014 
+
 ### The Open Source Music and Sound Conference
+
 #### ZKM Karlsruhe, Germany
 
 The project is based on the TIN (chemical element) as a conceptual starting material and the analysis of the sound of "tin cry". TIN META-SONIFICATION SYNTH is a software written in SuperCollider based on two sonifications: the first is derived from the physical-chemical characteristics of the TIN, the second on the atomic number and atomic radius. The variation of pressure and temperature controls in real time the values of density, sound velocity, state of matter, boiling point and melting, which controls a first synth.
