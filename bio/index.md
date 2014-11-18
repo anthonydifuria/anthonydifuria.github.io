@@ -66,9 +66,9 @@ His work ranges from Sound Research, Sound Designer, programming, live electroni
 
 ## Teaching
 
-Guitar and Music Theory - Overtones Studio San Benedetto del Tronto
-Sound Engineer - with Stefano Segatori Overtones Studio 2013
-Electronic Music and Sound Perception - JuliaJazz 2013
+- Guitar and Music Theory - Overtones Studio San Benedetto del Tronto
+- Sound Engineer - with Stefano Segatori Overtones Studio 2013
+- Electronic Music and Sound Perception - JuliaJazz 2013
 
  <div markdown="0"><a href="/works" class="btn">WORKS</a></div>
 
