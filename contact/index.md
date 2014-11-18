@@ -10,9 +10,9 @@ image:
 ---
 
 ---
-thanks to Paolo Mainardi - Twinbit CTO -
+thanks to Paolo Mainardi - Twinbit CTO 
 <div markdown="0"><a href="http://mademistakes.com" class="btn">This is a button</a></div>
----
+
 
 
 
