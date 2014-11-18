@@ -2,7 +2,7 @@
 layout: page
 title: Contact
 excerpt: 
-modified:{} 
+modified: {} 
 image:
   feature: 
   credit: 
