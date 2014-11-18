@@ -16,8 +16,9 @@ highlighter: pygments
 sass:
   sass_dir: _sass
   style: compressed
-gems:
-  - jekyll-sitemap
+
+ gems: [jekyll-sitemap, jekyll-test-plugin, jekyll-jsonify, jekyll-assets]
+
 
 kramdown:
   auto_ids: true
@@ -26,7 +27,7 @@ kramdown:
   toc_levels: 1..2
   use_coderay: false
 
-include: [".htaccess","soundcloud.rb"]
+include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
 
 
