@@ -10,8 +10,8 @@ image:
 ---
 
 ##Anthony Di Furia - Italy
-###anthonydifuria.sound@gmail.com
 ---
+###email: anthonydifuria.sound@gmail.com
 
 
 
