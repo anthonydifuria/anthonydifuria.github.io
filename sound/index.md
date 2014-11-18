@@ -9,5 +9,5 @@ image:
   creditlink: 
 ---
 
-{% soundcloud_sound https://soundcloud.com/anthony-di-furia/beyond-the-human-atom-quebec-2014 %}
 
+{% soundcloud_sound https://soundcloud.com/anthony-di-furia/beyond-the-human-atom-quebec-2014 html5 white small %}
