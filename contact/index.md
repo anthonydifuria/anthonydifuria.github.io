@@ -10,7 +10,7 @@ image:
 ---
 
 ---
-thanks to Paolo Mainardi Twinbit CTO - www.twinbit.it
+thanks to Paolo Mainardi Twinbit CTO <div markdown="0"><a href="http://www.twinbit.it/" class="btn">TWINBIT</a></div>
 
 ---
 
