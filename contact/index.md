@@ -9,8 +9,10 @@ image:
   creditlink: 
 ---
 
-##Anthony Di Furia - Italy
 ---
+
+##Anthony Di Furia - Italy
+
 ###email: anthonydifuria.sound@gmail.com
 
 
