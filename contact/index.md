@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact
+title: Ciao
 excerpt: ""
 modified: 
 image:
