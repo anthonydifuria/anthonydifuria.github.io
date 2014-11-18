@@ -26,5 +26,7 @@ creates a "bond" between the real sound of "tin cry" and an imaginary soundscape
 
 ---
 
+<div markdown="0"><a href="http://lac.linuxaudio.org/2014/about" class="btn">LAC 2014</a></div>
+
 
 
