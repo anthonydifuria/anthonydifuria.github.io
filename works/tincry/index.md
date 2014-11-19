@@ -25,7 +25,7 @@ The composition/improvisation derivative, is a journey through the sonic dimensi
 creates a "bond" between the real sound of "tin cry" and an imaginary soundscape.
 
 ---
-
+First Order Ambisonics to Stereo
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HMfRpibSJ3o" frameborder="0"> </iframe>
 
