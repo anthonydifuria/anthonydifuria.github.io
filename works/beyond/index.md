@@ -28,6 +28,7 @@ will use in particular the brainwaves EEG and Leap Motion technologies.
 
 
 
+
 <div markdown="0"><a href="http://www.chambreblanche.qc.ca/fr/" class="btn">LA CHAMBRE BLANCHE</a></div>
 
 <div markdown="0"><a href="http://www.rad-art.org/rad_art/radart1.htm" class="btn">RAD'ART</a></div>
