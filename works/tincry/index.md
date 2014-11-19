@@ -26,11 +26,11 @@ creates a "bond" between the real sound of "tin cry" and an imaginary soundscape
 
 ---
 
-{% highlight html %}
-<iframe width="560" height="315" src="http://www.youtube.com/watch?v=HMfRpibSJ3o" frameborder="0"> </iframe>
-{% endhighlight %}
 
-<iframe width="560" height="315" src="//www.youtube.com/watch?v=HMfRpibSJ3o" frameborder="0"> </iframe>
+<iframe width="560" height="315" src="http://www.youtube.com/watch?v=HMfRpibSJ3o" frameborder="0"> </iframe>
+
+
+
 
 ---
 
