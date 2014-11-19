@@ -36,6 +36,7 @@ His work ranges from Sound Research, Sound Designer, programming, live electroni
 
 ## Sound Art
 
+- SGUARDI SONORI - live electronics ANCONA 2014
 - "LA FUGA" - with Stefano Vinciarelli - Festival Ville Castella 2013
 - METEOPHONIE - ideated by Eugenio Giordani with Stefano Vinciarelli and Niccolò Di Gregorio PESARO 2013
 - Sound Installation ERRATICA #2 "Paper White" with Stefano Vinciarelli GUBBIO 2013
@@ -43,7 +44,7 @@ His work ranges from Sound Research, Sound Designer, programming, live electroni
 - Sound Installation ERRATICA #1 - with Stefano Vinciarelli and Niccolò Di Gregorio 2012
 - SCAMBI MICROFESTIVAL - Fossobrone 2011
 - Conference Show "Bestiario filologico e fantastico" ERMANNO CAVAZZONI - with Eugenio Giordani PESARO 2012
-- URLO Urbino Laptop Orchestra - 2011
+- URLO Urbino Laptop Orchestra - conductors Alessandro Petrolati and Carlo Fatigoni 2011
 - Sound Design Theater "Vai a vedere i gorilla" by Gabriele Freytag - Accademia delle belle arti di Brera MILANO 2011
 - Sound Design Theater "La bellezza salverà il mondo" MOBY DICK Melville - FANO 2011
 
