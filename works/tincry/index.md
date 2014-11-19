@@ -26,8 +26,12 @@ creates a "bond" between the real sound of "tin cry" and an imaginary soundscape
 
 ---
 
+---
+First Order Ambisonics to Stereo
+
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=HMfRpibSJ3o" frameborder="0"> </iframe>
 
+---
 
 <div markdown="0"><a href="http://lac.linuxaudio.org/2014/about" class="btn">LAC 2014</a></div>
 
