@@ -4,7 +4,7 @@ title: Through the Space of Crying
 excerpt: ""
 modified: 
 image:
-  feature: spettro.jpg
+  feature: tin2.jpg
   credit: 
   creditlink: 
 ---
