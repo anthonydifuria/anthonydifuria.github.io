@@ -21,8 +21,8 @@ The love for the sound improves human and natural communications, it sensitizes 
 
 ## Ambisonics
 
- <div markdown="0"><a href="/works/etherotopie" class="btn">Etherotopie - Pesaro 2014</a></div>
-<div markdown="0"><a href="/works/beyond" class="btn">Beyond The Human Atom - Quebec 2014</a></div>
+ <div markdown="0"><a href="/works/etherotopie" class="btn">Etherotopie - PESARO 2014</a></div>
+<div markdown="0"><a href="/works/beyond" class="btn">Beyond The Human Atom - QUEBEC 2014</a></div>
 <div markdown="0"><a href="/works/tincry" class="btn">Through the Space of Crying  - LAC2014</a></div>
 <div markdown="0"><a href="http://ecoacoustics.sciencesconf.org/34572" class="btn">Ambisonics Sound Analysis</a></div>
 ---
