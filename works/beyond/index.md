@@ -26,6 +26,11 @@ order to create a new, original language, for each and everyone. With this commi
 recreates in a way the international atmosphere of the ‘’Spanish Inn’’ around a traditional campfire. The artist 
 will use in particular the brainwaves EEG and Leap Motion technologies.
 
+---
+
+First Order Ambisonics to Binaural
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gyRjBroky0o" frameborder="0"> </iframe>
 
 
 
