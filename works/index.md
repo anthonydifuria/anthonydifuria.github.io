@@ -5,7 +5,7 @@ excerpt: ""
 modified: 
 image:
   feature: sine_carol_ann.jpg
-  credit: 
+  credit: Carol-Ann Belzil Normand
   creditlink: 
 ---
 
