@@ -4,7 +4,7 @@ title: Works
 excerpt: ""
 modified: 
 image:
-  feature: spettro.jpg
+  feature: sine_carol_ann.jpg
   credit: 
   creditlink: 
 ---
