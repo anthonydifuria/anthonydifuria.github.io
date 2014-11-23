@@ -15,7 +15,7 @@ He approaches the world Unix/Linux and Free Software thanks to the friendship of
 
 He worked as assistant to Ambisonics Spatialization in the multimedia performance "De Divina Proportione" - Simone Sorini and David Monacchi, as Sound Design with Stefano Vinciarelli in the Theater Show "La fuga" (Escape) at the presence of author Gao Xingjian, Nobel Prize 2000.
 
-In 2012, he realizes with Eugenio Giordani a Live Electronics for the conference show "Bestiario filologico e fantastico" - Ermanno Cavazzoni
+In 2012,in partnership with Eugenio Giordani, Anthony realizes a Live Electronics for the conference show “Bestiario filologico e fantastico” - Ermanno Cavazzoni.
 
 May 2014, he takes part in the FKL SOUNDSCAPE MEETING in Florence with Rad'Art Project and he plays in the Linux Audio Conference 2014 - ZKM in Karlsruhe, Germany
 
