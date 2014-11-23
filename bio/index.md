@@ -17,7 +17,7 @@ He worked as assistant to Ambisonics Spatialization in the multimedia performanc
 
 In 2012, in partnership with Eugenio Giordani, Anthony realised a Live Electronics for the conference show “Bestiario filologico e fantastico” - Ermanno Cavazzoni.
 
-May 2014, he takes part in the FKL SOUNDSCAPE MEETING in Florence with Rad'Art Project and he plays in the Linux Audio Conference 2014 - ZKM in Karlsruhe, Germany
+In May 2014, he takes part in the FKL SOUNDSCAPE MEETING in Florence with Rad'Art Project and he plays in the Linux Audio Conference 2014 - ZKM in Karlsruhe, Germany
 
 In August 2014, He works on the his project "Beyond the human atom" for a site-specific residency in LA CHAMBRE BLANCHE (Quebec City) - exchange program with the center Rad'Art located in Italy.
 
