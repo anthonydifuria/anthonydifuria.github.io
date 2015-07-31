@@ -68,7 +68,7 @@ His work ranges from Sound Research, Sound Designer, programming, live electroni
 - SUONO - RAD'ART 2014
 - SoundWalk - Pesaro 2013
 - SoundWalk in Giulio Perticari Park - with Stefano Vinciarelli and Niccolò Di Gregorio 2012
-- "Ear to the earth" Soundwalk with Hildegard Westerkamp - PESARO 2012 
+- SoundField Recording - "Ear to the earth" Soundwalk with Hildegard Westerkamp - PESARO 2012 
 
 ## Teaching
 
