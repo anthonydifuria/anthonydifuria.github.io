@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Teaching
+title: Contact
 excerpt: 
 modified: {} 
 image:
@@ -9,9 +9,44 @@ image:
   creditlink: 
 ---
 
+---
+
+##Anthony Di Furia - Italy
+
+###email: anthonydifuria.sound[at]gmail.com
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 
-{% soundcloud https://soundcloud.com/anthony-di-furia/through-the-space-of-crying-1 %}
 
+
+
+
+
+
+
+
+
+
+
+thanks to
+
+#####Paolo Mainardi - Twinbit CTO 
+
+<div markdown="0"><a href="http://www.twinbit.it/it" class="btn">TWINBIT</a></div>
+
+#####Carol-Ann Belzil Normand 
+for "website LOGO"
+
+<div markdown="0"><a href="http://carolannbelzilnormand.com/" class="btn">Carol-Ann Belzil Normand</a></div>
 
