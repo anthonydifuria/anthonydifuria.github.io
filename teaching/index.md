@@ -9,6 +9,6 @@ image:
   creditlink: 
 ---
 
-{% soundcloud_sound https://soundcloud.com/anthony-di-furia/through-the-space-of-crying-1 %}
+{% soundcloud https://soundcloud.com/anthony-di-furia/through-the-space-of-crying-1 %}
 
 
