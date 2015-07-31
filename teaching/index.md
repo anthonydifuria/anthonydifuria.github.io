@@ -12,7 +12,7 @@ image:
 
 ---
 
-{% soundcloud https://soundcloud.com/anthony-di-furia/mastros-delirium %}
+{% soundcloud_sound https://soundcloud.com/anthony-di-furia/mastros-delirium %}
 
 ---
 
