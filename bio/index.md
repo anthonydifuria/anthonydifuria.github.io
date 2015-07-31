@@ -10,6 +10,7 @@ image:
 ---
 
 He began playing the drums at age 4, piano at 6 and violin at 11. In 2004 he graduated in guitar, theory and arrangement (Percentomusica of Rome). He studied composition at the Conservatory of Fermo and Electronic Music at the Conservatory of Pesaro with Eugenio Giordani and David Monacchi.
+
 - Bachelor's degree "magna cum laude" in Music and New Tecnology - Conservatory of Pesaro.
 
 He approaches the world Unix/Linux and Free Software thanks to the friendship of the founders of ILDN - Italian Linux Distro Network.
