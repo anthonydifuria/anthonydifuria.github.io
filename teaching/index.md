@@ -4,7 +4,7 @@ title: Teaching
 excerpt: 
 modified: {}
 image: 
-  feature: ""
+  feature: 
   credit: 
   creditlink: 
 ---
