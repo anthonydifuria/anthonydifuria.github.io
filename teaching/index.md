@@ -12,7 +12,7 @@ image:
 
 ---
 
-{% soundcloud 6143680 %}
+{% soundcloud_sound 6143680 %}
 
 ---
 
