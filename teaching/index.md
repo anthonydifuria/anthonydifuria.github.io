@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact
+title: Teaching
 excerpt: 
 modified: {} 
 image:
@@ -11,31 +11,6 @@ image:
 
 ---
 
-##Anthony Di Furia - Italy
-
-###email: anthonydifuria.sound[at]gmail.com
-
-
-
-
-
-
-
-
-
-
-
-
----
-
-
-
-
-
-
-
-
-
 
 
 
@@ -45,8 +20,5 @@ thanks to
 
 <div markdown="0"><a href="http://www.twinbit.it/it" class="btn">TWINBIT</a></div>
 
-#####Carol-Ann Belzil Normand 
-for "website LOGO"
 
-<div markdown="0"><a href="http://carolannbelzilnormand.com/" class="btn">Carol-Ann Belzil Normand</a></div>
 
