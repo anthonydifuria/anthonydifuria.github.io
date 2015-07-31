@@ -12,7 +12,7 @@ image:
 
 ---
 
-{% soundcloud favorites 6431392 %}
+{% soundcloud %}
 
 ---
 
