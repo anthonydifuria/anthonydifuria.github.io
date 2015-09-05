@@ -35,7 +35,25 @@ First Order Ambisonics to Stereo
 
 <figure class="half">
 	<img src="/images/photo_lac2014/1.jpg" alt="image">
-<figcaption>Photo Credit: </figcaption>
+	<img src="/images/photo_lac2014/2.jpg" alt="image">
+	<img src="/images/photo_lac2014/3.jpg" alt="image">
+	<img src="/images/photo_lac2014/4.jpg" alt="image">
+	<img src="/images/photo_lac2014/5.jpg" alt="image">
+	<img src="/images/photo_lac2014/6.jpg" alt="image">
+	<img src="/images/photo_lac2014/7.jpg" alt="image">
+	<img src="/images/photo_lac2014/8.jpg" alt="image">
+	<img src="/images/photo_lac2014/9.jpg" alt="image">
+	<img src="/images/photo_lac2014/10.jpg" alt="image">
+	<img src="/images/photo_lac2014/11.jpg" alt="image">
+	<img src="/images/photo_lac2014/12.jpg" alt="image">
+	<img src="/images/photo_lac2014/13.jpg" alt="image">
+	<img src="/images/photo_lac2014/14.jpg" alt="image">
+
+</figure>
+
+<figure>
+	<img src="/images/photo_lac2014/15.jpg" alt="image">
+	<figcaption>Photo Credit: Anthony Di Furia </figcaption>
 </figure>
 
 <div markdown="0"><a href="http://lac.linuxaudio.org/2014/about" class="btn">LAC 2014</a></div>
