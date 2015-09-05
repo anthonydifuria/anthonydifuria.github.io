@@ -34,6 +34,13 @@ First Order Ambisonics to Binaural
 
 ---
 
+image:
+  feature: la_chambre_blanche_6.jpg
+  credit: Carol-Ann Belzil Normand
+  creditlink: 
+---
+
+
 <div markdown="0"><a href="http://www.chambreblanche.qc.ca/fr/" class="btn">LA CHAMBRE BLANCHE</a></div>
 
 <div markdown="0"><a href="http://www.rad-art.org/rad_art/radart1.htm" class="btn">RAD'ART</a></div>
