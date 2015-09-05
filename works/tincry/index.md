@@ -47,7 +47,6 @@ First Order Ambisonics to Stereo
 	<img src="/images/photo_lac2014/11.jpg" alt="image">
 	<img src="/images/photo_lac2014/12.jpg" alt="image">
 
-
 </figure>
 
 <figure>
