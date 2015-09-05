@@ -36,7 +36,7 @@ First Order Ambisonics to Binaural
 
 <figure>
 	<img src="/images/la_chambre_blanche_6.jpg" alt="image">
-<figcaption>Caption describing these two images.</figcaption>
+<figcaption>Photo Credit: Carol-Ann Belzil Normand</figcaption>
 </figure>
 
 
