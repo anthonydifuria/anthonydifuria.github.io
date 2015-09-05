@@ -28,9 +28,13 @@ will use in particular the brainwaves EEG and Leap Motion technologies.
 
 ---
 
+
 First Order Ambisonics to Binaural
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gyRjBroky0o" frameborder="0"> </iframe>
+
+
+
 
 ---
 
@@ -39,6 +43,30 @@ First Order Ambisonics to Binaural
 <figcaption>Photo Credit: Carol-Ann Belzil Normand</figcaption>
 </figure>
 
+<figure>
+	<img src="/images/la_chambre_blanche_4.jpg" alt="image">
+<figcaption>Photo Credit: Pierre-Luc Lapointe</figcaption>
+</figure>
+
+<figure>
+	<img src="/images/la_chambre_blanche_1.jpg" alt="image">
+<figcaption>Photo Credit: Pierre-Luc Lapointe</figcaption>
+</figure>
+
+<figure>
+	<img src="/images/la_chambre_blanche_2.jpg" alt="image">
+<figcaption>Photo Credit: Pierre-Luc Lapointe</figcaption>
+</figure>
+
+<figure>
+	<img src="/images/la_chambre_blanche_3.jpg" alt="image">
+<figcaption>Photo Credit: Pierre-Luc Lapointe</figcaption>
+</figure>
+
+<figure>
+	<img src="/images/la_chambre_blanche_5.jpg" alt="image">
+<figcaption>Photo Credit: Pierre-Luc Lapointe</figcaption>
+</figure>
 
 ---
 
