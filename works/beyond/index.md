@@ -34,10 +34,7 @@ First Order Ambisonics to Binaural
 
 ---
 
-image:
-  feature: la_chambre_blanche_6.jpg
-  credit: Carol-Ann Belzil Normand
-  creditlink: 
+
 ---
 
 
