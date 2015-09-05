@@ -33,6 +33,11 @@ First Order Ambisonics to Stereo
 
 ---
 
+<figure class="half">
+	<img src="/images/photo_lac2014/1.jpg" alt="image">
+<figcaption>Photo Credit: </figcaption>
+</figure>
+
 <div markdown="0"><a href="http://lac.linuxaudio.org/2014/about" class="btn">LAC 2014</a></div>
 
 
