@@ -46,13 +46,12 @@ First Order Ambisonics to Stereo
 	<img src="/images/photo_lac2014/10.jpg" alt="image">
 	<img src="/images/photo_lac2014/11.jpg" alt="image">
 	<img src="/images/photo_lac2014/12.jpg" alt="image">
-	<img src="/images/photo_lac2014/13.jpg" alt="image">
-	<img src="/images/photo_lac2014/14.jpg" alt="image">
+
 
 </figure>
 
 <figure>
-	<img src="/images/photo_lac2014/15.jpg" alt="image">
+	<img src="/images/photo_lac2014/13.jpg" alt="image">
 	<figcaption>Photo Credit: Anthony Di Furia </figcaption>
 </figure>
 
