@@ -17,8 +17,8 @@ First Order Ambisonics to Stereo
 
 <figure>
 	<img src="/images/photo_ethero/1.jpg" alt="image">
-	<img src="/images/photo_ethero/1.jpg" alt="image">
-	<img src="/images/photo_ethero/1.jpg" alt="image">
+	<img src="/images/photo_ethero/2.jpg" alt="image">
+	<img src="/images/photo_ethero/3.jpg" alt="image">
 <figcaption>Recording - Osservatorio Valerio, Pesaro Italia</figcaption>
 </figure>
 
