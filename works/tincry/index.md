@@ -49,6 +49,7 @@ First Order Ambisonics to Stereo
 
 </figure>
 
+
 <figure>
 	<img src="/images/photo_lac2014/13.jpg" alt="image">
 	<figcaption>Photo Credit: Anthony Di Furia </figcaption>
