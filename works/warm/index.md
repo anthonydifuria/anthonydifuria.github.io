@@ -4,8 +4,8 @@ title: The Warm Feeling of Cold
 excerpt: ""
 modified: 
 image: 
-  feature: cover.jpg
-  credit: Alex Paolini
+  feature: alex1.jpg
+  credit: Mos Agency
   creditlink: 
   
 ---
