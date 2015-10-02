@@ -41,7 +41,6 @@ image:
 ---
 
 ## Software
-
 ### Theater Salomè
 
 ---
