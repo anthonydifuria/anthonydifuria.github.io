@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Vai a vedere i gorilla
+title: Engraving Soul
 excerpt: ""
 modified: 
 image:
-  feature: tin3.jpg
+  feature: 
   credit: 
   creditlink: 
 ---
 
 ---
 
-## Vai a vedere i gorilla
+## Engraving Soul
 
