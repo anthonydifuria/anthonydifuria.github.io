@@ -27,6 +27,7 @@ Most recently he worked as analyst and software developer for the project "Fragm
 
 His work ranges from Sound Research, Sound Designer, programming, live electronics, Sound Installations, spatialization techniques, sound engineer and field recordings.
 
+---
 
 ## Ambisonics
 
