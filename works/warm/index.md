@@ -7,8 +7,8 @@ image:
   feature:
   credit: 
   creditlink: 
-  
-  by Alex Paolini Drummer
+---
+### Composer and Ideator: Alex Paolini Drummer
 ---
 
 ---
