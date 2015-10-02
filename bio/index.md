@@ -58,7 +58,7 @@ His work ranges from Sound Research, Sound Designer, programming, live electroni
 - Recording, Mixing, Sound Design - "The Warm Feeling of Cold" - ALEX PAOLINI - Italy (2013)
 - Technical Advice - "Pulsazioni 1" - by Stefano Boffi - Italy (2013)
 - Recording "unreleased music FERRONI ZANDONAI" - with David Monacchi - Todi, Italy (2013)
-- Technical Advice - "Ascolta la musica che ti ascolta" by Walter Branchi and David Monacchi - Trieste (2011)
+- Technical Advice - "Ascolta la musica che ti ascolta" by Walter Branchi, David Monacchi - Trieste (2011)
 
 ## SoundScape - Field Recording
 
