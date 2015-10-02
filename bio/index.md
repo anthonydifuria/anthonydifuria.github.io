@@ -30,13 +30,13 @@ His work ranges from Sound Research, Sound Designer, programming, live electroni
 
 ## Ambisonics
 
-- Electroacustic Composer and Sound Design - Movie: "ANAKE" director CLAUDIO ROMANO (2015) 
-- Sound Developer - "Fragments Of Extinction" by DAVID MONACCHI - (2015)
+- Electroacustic Composer and Sound Design - Movie: "ANAKE" director Claudio Romano (2015) 
+- Sound Developer - "Fragments Of Extinction" by David Monacchi - Italy (2015)
 - Artist Residency Site-Specific - "Beyond the Human Atom" - La Chambre Blanche (2014)
 - Electroacoustic Composition - "Etherotopie" - Conservatory of Pesaro SPACE (2014)
 - Electroacoustic Composition - "Through the space of crying" - LAC2014 ZKM Kubus (2014)
-- Eco-Acustic Analysis - "A new Recording Approach in Primary Equatorial Forests" by DAVID MONACCHI (2014)
-- Ambisonics Spatialization - "De Divina Proportione" by SIMONE SORINI and DAVID MONACCHI (2011)
+- Eco-Acustic Analysis - "A new Recording Approach in Primary Equatorial Forests" by David  Monacchi (2014)
+- Ambisonics Spatialization - "De Divina Proportione" by Simone Sorini and David Monacchi (2011)
 
 ## Sound Art 
 
@@ -48,7 +48,7 @@ His work ranges from Sound Research, Sound Designer, programming, live electroni
 - Programming, Recording, Theater - "Salomè" by Oscar Wild - with David Monacchi - Fano (2012)
 - Sound Installation "ERRATICA #1" - with Stefano Vinciarelli and Niccolò Di Gregorio (2012)
 - Electroacustic Composition, Concert - "SCAMBI MICROFESTIVAL" - Fossombrone PU 2011
-- Conference Show - "Bestiario filologico e fantastico" Ermanno Cavazzoni - with Eugenio Giordani - Pesaro (2012)
+- Concert - "Bestiario filologico e fantastico" Ermanno Cavazzoni - with Eugenio Giordani - Pesaro (2012)
 - Concert - "URLO Urbino Laptop Orchestra" - conductors Alessandro Petrolati and Carlo Fatigoni (2011)
 - Theater, Sound Design - "Vai a vedere i gorilla" by Gabriele Freytag - Accademia Belle Arti - Milano (2011)
 - Theater, Sound design - "La bellezza salverà il mondo" MOBY DICK Melville - Fano (2011)
