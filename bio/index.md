@@ -27,7 +27,7 @@ Most recently he worked as analyst and software developer for the project "Fragm
 
 His work ranges from Sound Research, Sound Designer, programming, live electronics, Sound Installations, spatialization techniques, sound engineer and field recordings.
 
----
+--
 
 ## Ambisonics
 
@@ -86,7 +86,7 @@ His work ranges from Sound Research, Sound Designer, programming, live electroni
 - Sound Engineer - with Stefano Segatori Overtones Studio San Benedetto del Tronto, Italy (2013)
 - Electronic Music and Sound Perception - JuliaJazz - Giulianova, Italy (2013)
 
----
+--
 
  <div markdown="0"><a href="/works" class="btn">WORKS</a></div>
 
