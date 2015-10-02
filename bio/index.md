@@ -48,9 +48,9 @@ His work ranges from Sound Research, Sound Designer, programming, live electroni
 - Programming, Recording, Theater - "Salomè" by Oscar Wild - with David Monacchi - Fano (2012)
 - Sound Installation "ERRATICA #1" - with Stefano Vinciarelli and Niccolò Di Gregorio (2012)
 - Electroacustic Composition, Concert - "SCAMBI MICROFESTIVAL" - Fossombrone PU 2011
-- Concert - "Bestiario filologico e fantastico" Ermanno Cavazzoni - with Eugenio Giordani - Pesaro (2012)
-- Concert - "URLO Urbino Laptop Orchestra" - conductors Alessandro Petrolati and Carlo Fatigoni (2011)
-- Theater, Sound Design - "Vai a vedere i gorilla" by Gabriele Freytag - Accademia Belle Arti - Milano (2011)
+- Concert - "Bestiario filologico e fantastico" E. Cavazzoni - with E. Giordani - Pesaro (2012)
+- Concert - "URLO Urbino Laptop Orchestra" - conductors A. Petrolati and C. Fatigoni (2011)
+- Theater, Sound Design - "Vai a vedere i gorilla" by G. Freytag - Accademia Belle Arti - Milano (2011)
 - Theater, Sound design - "La bellezza salverà il mondo" MOBY DICK Melville - Fano (2011)
 
 ## Sound Engineer
