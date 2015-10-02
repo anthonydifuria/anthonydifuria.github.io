@@ -3,10 +3,11 @@ layout: page
 title: The Warm Feeling of Cold 
 excerpt: ""
 modified: 
-image: alex2.jpg
+image:
   feature:
   credit: 
   creditlink: 
+  
 ---
 ### Composer, Drummer and Ideator: Alex Paolini 
 
