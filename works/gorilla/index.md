@@ -4,7 +4,7 @@ title: Vai a vedere i gorilla
 excerpt: ""
 modified: 
 image:
-  feature: tin3.jpg
+  feature: 
   credit: 
   creditlink: 
 ---
