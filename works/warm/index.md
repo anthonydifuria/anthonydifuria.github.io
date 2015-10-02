@@ -3,9 +3,9 @@ layout: page
 title: The Warm Feeling of Cold 
 excerpt: ""
 modified: 
-image: cover.jpg
-  feature:
-  credit: 
+image: 
+  feature: cover.jpg
+  credit: Alex Paolini
   creditlink: 
   
 ---
