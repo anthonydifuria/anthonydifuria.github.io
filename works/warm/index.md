@@ -1,7 +1,7 @@
 ---
 layout: page
-title: The Warm Feeling of Cold 
-excerpt: "Alex Paolini Drummer"
+title: Alex Paolini Drummer The Warm Feeling of Cold 
+excerpt: ""
 modified: 
 image:
   feature:
@@ -11,5 +11,5 @@ image:
 
 ---
 
-## The Warm Feeling of Cold
+## The Warm Feeling of Cold 
 
