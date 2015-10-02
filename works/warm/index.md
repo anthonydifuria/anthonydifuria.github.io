@@ -9,7 +9,6 @@ image:
   creditlink: 
 ---
 ### Composer, Drummer and Ideator: Alex Paolini 
----
 
 ---
 
