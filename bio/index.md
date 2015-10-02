@@ -39,6 +39,8 @@ His work ranges from Sound Research, Sound Designer, programming, live electroni
 - Analysis - "A new Recording Approach in Primary Equatorial Forests" by David  Monacchi (2014)
 - Ambisonics Spatialization - "De Divina Proportione" by Simone Sorini and David Monacchi (2011)
 
+---
+
 ## Sound Art 
 
 - Sound Installation - A/traverso "Percorsi Ondivaghi" - Martinsicuro TE (2015)
@@ -54,12 +56,16 @@ His work ranges from Sound Research, Sound Designer, programming, live electroni
 - Theater, Sound Design - "Vai a vedere i gorilla" by G. Freytag - Accademia Belle Arti - Milano (2011)
 - Theater, Sound design - "La bellezza salverà il mondo" MOBY DICK Melville - Fano (2011)
 
+---
+
 ## Sound Engineer
 
 - Recording, Mixing, Sound Design - "The Warm Feeling of Cold" - ALEX PAOLINI - Italy (2013)
 - Technical Advice - "Pulsazioni 1" - by Stefano Boffi - Italy (2013)
 - Recording "unreleased music FERRONI ZANDONAI" - with David Monacchi - Todi, Italy (2013)
 - Technical Advice - "Ascolta la musica che ti ascolta" by W. Branchi and D. Monacchi - Trieste (2011)
+
+---
 
 ## SoundScape - Field Recording
 
@@ -71,6 +77,8 @@ His work ranges from Sound Research, Sound Designer, programming, live electroni
 - SoundField Recording - "SoundWalk Pesaro" with Eugenio Giordani - Pesaro (2013)
 - SoundField Recording - "Giulio Perticari Park" with S. Vinciarelli, N. Di Gregorio - Italy (2012)
 - SoundField Recording - "Ear to the earth" Soundwalk with Hildegard Westerkamp - Pesaro (2012) 
+
+---
 
 ## Teaching
 
