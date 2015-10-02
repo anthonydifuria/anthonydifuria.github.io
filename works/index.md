@@ -29,8 +29,19 @@ Analysis</a></div>
 
 ## Sound Art
 
+<div markdown="0"><a href="/works/soul" class="btn">Engraving Soul</a></div>
+<div markdown="0"><a href="/works/young" class="btn">Young-Visions</a></div>
+<div markdown="0"><a href="/works/percorsi" class="btn">Percorsi Ondivaghi</a></div>
 
- 
+## Sonification
+
+<div markdown="0"><a href="/works/sound_mafia" class="btn">The Sound of Mafia</a></div>
+
+## Sound Engineer
+
+<div markdown="0"><a href="/works/warm" class="btn">The Warm Feeling of Cold</a></div>
+
+
  
 ---
 
