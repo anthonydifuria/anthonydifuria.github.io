@@ -35,7 +35,7 @@ His work ranges from Sound Research, Sound Designer, programming, live electroni
 - Artist Residency Site-Specific - "Beyond the Human Atom" - La Chambre Blanche (2014)
 - Electroacoustic Composition - "Etherotopie" - Conservatory of Pesaro SPACE (2014)
 - Electroacoustic Composition - "Through the space of crying" - LAC2014 ZKM Kubus (2014)
-- Eco-Acustic Analysis - "A new Recording Approach in Primary Equatorial Forests" by David  Monacchi (2014)
+- Analysis - "A new Recording Approach in Primary Equatorial Forests" by David  Monacchi (2014)
 - Ambisonics Spatialization - "De Divina Proportione" by Simone Sorini and David Monacchi (2011)
 
 ## Sound Art 
