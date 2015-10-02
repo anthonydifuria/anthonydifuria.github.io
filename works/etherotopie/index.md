@@ -25,3 +25,5 @@ First Order Ambisonics to Stereo
 <figcaption>Osservatorio Valerio, Pesaro Italia</figcaption>
 </figure>
 
+http://postscena.net/tag/anthony-di-furia/
+
