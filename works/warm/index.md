@@ -3,7 +3,7 @@ layout: page
 title: The Warm Feeling of Cold 
 excerpt: ""
 modified: 
-image:cover.jpg
+image: cover.jpg
   feature:
   credit: 
   creditlink: 
