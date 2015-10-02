@@ -21,8 +21,8 @@ VOLUME Drums: Darkness by Alex Paolini
 
 
 
-
 ---
+
 <figure>
 	<img src="/images/alex2.jpg" alt="image">
 	<figcaption>Photo Credit: Mos Agency </figcaption>
@@ -30,4 +30,5 @@ VOLUME Drums: Darkness by Alex Paolini
 		<img src="/images/cover.jpg" alt="image">
 	<figcaption>Photo Credit: Alex Paolini </figcaption>
 </figure>
+
 ---
