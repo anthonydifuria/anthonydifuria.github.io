@@ -77,6 +77,8 @@ His work ranges from Sound Research, Sound Designer, programming, live electroni
 - Sound Engineer - with Stefano Segatori Overtones Studio San Benedetto del Tronto, Italy (2013)
 - Electronic Music and Sound Perception - JuliaJazz - Giulianova, Italy (2013)
 
+---
+
  <div markdown="0"><a href="/works" class="btn">WORKS</a></div>
 
  <div markdown="0"><a href=" https://dl.dropboxusercontent.com/u/14847530/anthony_di_furia_CV.pdf" class="btn">CURRICULUM VITAE</a></div> 
