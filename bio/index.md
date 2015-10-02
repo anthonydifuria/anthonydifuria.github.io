@@ -25,7 +25,7 @@ In August 2014, He works on the his project "Beyond the human atom" for a site-s
 
 Most recently he worked as analyst and software developer for the project "Fragments of extinction" by David Monacchi.
 
-His work ranges from Sound Research, Sound Designer, programming, live electronics, Sound Installations, spatialization techniques, sound engineer and field recordings.
+His work ranges from Sound Research, Sound Designer, programming, live electronics, Sound Installations, spatialization techniques, sound engineer and field recording.
 
 ----
 
