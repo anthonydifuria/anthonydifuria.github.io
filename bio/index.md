@@ -23,58 +23,59 @@ In May 2014, he takes part in the FKL SOUNDSCAPE MEETING in Florence with Rad'Ar
 
 In August 2014, He works on the his project "Beyond the human atom" for a site-specific residency in LA CHAMBRE BLANCHE (Quebec City) - exchange program with the center Rad'Art located in Italy.
 
-Most recently he worked as analyst and software doveloper for the project "Fragments of extinction - A new recording approach in primary equatorial forest" by David Monacchi.
+Most recently he worked as analyst and software developer for the project "Fragments of extinction" by David Monacchi.
 
 His work ranges from Sound Research, Sound Designer, programming, live electronics, Sound Installations, spatialization techniques, sound engineer and field recordings.
 
 
 ## Ambisonics
 
-- Electroacustic Composer and Sound Design - Movie: ANAKE director CLAUDIO ROMANO - 2015
-- Sound Developer - Fragments Of Extinction by DAVID MONACCHI - 2015
-- Beyond the Human Atom - La Chambre Blanche 2014
-- Etherotopie - Conservatory of Pesaro SPACE 2014
-- Through the space of crying - LAC2014 ZKM Kubus 2014
-- Eco-Acustic Analysis - A new Recording Approach in Primary Equatorial Forests by DAVID MONACCHI 2014
-- Ambisonics Spatialization - De Divina Proportione by SIMONE SORINI and DAVID MONACCHI 2011
+- Electroacustic Composer and Sound Design - Movie: "ANAKE" director CLAUDIO ROMANO (2015) 
+- Sound Developer - "Fragments Of Extinction" by DAVID MONACCHI - (2015)
+- Artist Residency Site-Specific - "Beyond the Human Atom" - La Chambre Blanche (2014)
+- Electroacoustic Composition - "Etherotopie" - Conservatory of Pesaro SPACE (2014)
+- Electroacoustic Composition - "Through the space of crying" - LAC2014 ZKM Kubus (2014)
+- Eco-Acustic Analysis - "A new Recording Approach in Primary Equatorial Forests" by DAVID MONACCHI (2014)
+- Ambisonics Spatialization - "De Divina Proportione" by SIMONE SORINI and DAVID MONACCHI (2011)
 
 ## Sound Art 
 
-- SGUARDI SONORI - live electronics ANCONA 2014
-- "LA FUGA" - with Stefano Vinciarelli - Festival Ville Castella 2013
-- METEOPHONIE - ideated by Eugenio Giordani with Stefano Vinciarelli and Niccolò Di Gregorio PESARO 2013
-- Sound Installation ERRATICA #2 "Paper White" with Stefano Vinciarelli GUBBIO 2013
-- Programming and Recording "Salomè" by Oscar Wild - with David Monacchi THEATER FANO 2012
-- Sound Installation ERRATICA #1 - with Stefano Vinciarelli and Niccolò Di Gregorio 2012
-- SCAMBI MICROFESTIVAL - Fossobrone 2011
-- Conference Show "Bestiario filologico e fantastico" ERMANNO CAVAZZONI - with Eugenio Giordani PESARO 2012
-- URLO Urbino Laptop Orchestra - conductors Alessandro Petrolati and Carlo Fatigoni 2011
-- Sound Design Theater "Vai a vedere i gorilla" by Gabriele Freytag - Accademia delle belle arti di Brera MILANO 2011
-- Sound Design Theater "La bellezza salverà il mondo" MOBY DICK Melville - FANO 2011
+- Sound Installation - A/traverso "Percorsi Ondivaghi" - Martinsicuro TE (2015)
+- Live Electronics - "SGUARDI SONORI" - Ancona (2014) 
+- Theater, Sound Design - "LA FUGA" - with Stefano Vinciarelli - Festival Villa Castelle PU (2013)
+- Sonification - "METEOPHONIE" - ideated by Eugenio Giordani - Pesaro (2013)
+- Sound Installation - "ERRATICA #2 Paper White" with Stefano Vinciarelli - Gubbio (2013)
+- Programming, Recording, Theater - "Salomè" by Oscar Wild - with David Monacchi - Fano (2012)
+- Sound Installation "ERRATICA #1" - with Stefano Vinciarelli and Niccolò Di Gregorio (2012)
+- Electroacustic Composition, Concert - "SCAMBI MICROFESTIVAL" - Fossombrone PU 2011
+- Conference Show - "Bestiario filologico e fantastico" ERMANNO CAVAZZONI - with Eugenio Giordani - Pesaro (2012)
+- Concert - "URLO Urbino Laptop Orchestra" - conductors Alessandro Petrolati and Carlo Fatigoni (2011)
+- Theater, Sound Design - "Vai a vedere i gorilla" by Gabriele Freytag - Accademia Belle Arti di Brera - Milano (2011)
+- Theater, Sound design - "La bellezza salverà il mondo" MOBY DICK Melville - Fano (2011)
 
 ## Sound Engineer
 
-- The Warm Feeling of Cold - ALEX PAOLINI 2013
-- Pulsazioni 1 - by Stefano Boffi 2013
-- Recording unreleased music FERRONI ZANDONAI - with David Monacchi TODI 2013
-- "Ascolta la musica che ti ascolta" The music of the Botanical Garden by WALTER BRANCHI and DAVID MONACCHI - TRIESTE 2011
+- Recording, Mixing, Sound Design - "The Warm Feeling of Cold" - ALEX PAOLINI - Italy (2013)
+- Technical Advice - "Pulsazioni 1" - by Stefano Boffi - Italy (2013)
+- Recording "unreleased music FERRONI ZANDONAI" - with David Monacchi - Todi, Italy (2013)
+- Technical Advice - "Ascolta la musica che ti ascolta" by WALTER BRANCHI and DAVID MONACCHI - Trieste, Italy (2011)
 
 ## SoundScape - Field Recording
 
-- SoundField Recording for Multimedia Installation Palela 0.1 Urbino 2015
-- SoundScape - Quebec City 2014
-- Sound Archive - PIANPICOLLO SELVATICO 2014
-- "Per chi suona il paesaggio" - MEETING FKL Florence 2014 
-- SUONO - RAD'ART 2014
-- SoundWalk - Pesaro 2013
-- SoundWalk in Giulio Perticari Park - with Stefano Vinciarelli and Niccolò Di Gregorio 2012
-- SoundField Recording - "Ear to the earth" Soundwalk with Hildegard Westerkamp - PESARO 2012 
+- SoundField Recording for Multimedia Installation - "Palela 0.1" - Urbino (2015)
+- SoundField Recording "SoundScape" - Quebec City (2014)
+- Sound Library - PIANPICOLLO SELVATICO - Italy (2014)
+- Soundscape Composition - "Per chi suona il paesaggio" - MEETING FKL Florence (2014) 
+- Soundscape Composition - SUONO - RAD'ART Mercato Saraceno, Italy (2014)
+- SoundField Recording - "SoundWalk Pesaro" with Eugenio Giordani - Pesaro (2013)
+- SoundField Recording - "SoundWalk Giulio Perticari Park" with S. Vinciarelli, N. Di Gregorio - Italy (2012)
+- SoundField Recording - "Ear to the earth" Soundwalk with Hildegard Westerkamp - Pesaro (2012) 
 
 ## Teaching
 
 - Guitar and Music Theory - Overtones Studio San Benedetto del Tronto
-- Sound Engineer - with Stefano Segatori Overtones Studio 2013
-- Electronic Music and Sound Perception - JuliaJazz 2013
+- Sound Engineer - with Stefano Segatori Overtones Studio San Benedetto del Tronto, Italy (2013)
+- Electronic Music and Sound Perception - JuliaJazz - Giulianova, Italy (2013)
 
  <div markdown="0"><a href="/works" class="btn">WORKS</a></div>
 
