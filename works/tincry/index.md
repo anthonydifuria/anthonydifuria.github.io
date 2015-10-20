@@ -69,9 +69,13 @@ LAC 2014 version
 	<figcaption>Photo Credit: Anthony Di Furia </figcaption>
 </figure>
 
-<div markdown="0"><a href="http://lac.linuxaudio.org/2014/about" class="btn">LAC 2014</a></div>
+External links:
 
-<div markdown="0"><a href="http://zkm.de/" class="btn">ZKM</a></div>
+##[Linux Audio Conference 2014](http://lac.linuxaudio.org/2014/about) 
+
+##[ZKM Karlsruhe, Germany](http://zkm.de/) 
+
+
 
 
 
