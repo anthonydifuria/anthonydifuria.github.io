@@ -31,7 +31,7 @@ His work ranges from Sound Research, Sound Designer, programming, live electroni
 
 ## Ambisonics
 
-- Electroacustic Composer and Sound Design - Movie: "ANAKE" director Claudio Romano (2015) 
+- Electroacustic Composer and Sound Design - Movie: "ANANKE" director Claudio Romano (2015) 
 - Sound Developer - "Fragments Of Extinction" by David Monacchi - Italy (2015)
 - Artist Residency Site-Specific - "Beyond the Human Atom" - La Chambre Blanche (2014)
 - Electroacoustic Composition - "Etherotopie" - Conservatory of Pesaro SPACE (2014)
