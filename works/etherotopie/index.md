@@ -37,6 +37,4 @@ Dome
 
 ---
 
-link: http://postscena.net/tag/anthony-di-furia/ 
-
-
+[post](http://postscena.net/tag/anthony-di-furia/ ) 
