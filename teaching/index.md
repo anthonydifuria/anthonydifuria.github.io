@@ -9,22 +9,16 @@ image:
   creditlink: 
 ---
 
-## Example of Sound Transformation 
-
----
-
 * Table of Contents
 {:toc}
+
+## Example of Sound Transformation 
 
 #### Water Transform
 <div markdown="0"><a href="https://soundcloud.com/anthony-di-furia/example-water-transform" class="btn">Water Transform</a></div>
 
----
-
 #### For Camilla
 <div markdown="0"><a href="https://soundcloud.com/anthony-di-furia/for-camilla" class="btn">For Camilla</a></div>
-
----
 
 #### Somiere
 <div markdown="0"><a href="https://soundcloud.com/anthony-di-furia/il-somiere" class="btn">Il Somiere</a></div>
