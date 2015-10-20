@@ -17,9 +17,9 @@ image:
 <figure>
 
 <img src="/images/atraverso/atraverso1.jpg" alt="image">
-<figcaption>Osservatorio Valerio, Pesaro Italia</figcaption>
+<figcaption>Villa Rosa, Martinsicuro TE 2015</figcaption>
 
 <img src="/images/atraverso/atraverso2.jpg" alt="image">
-<figcaption>Osservatorio Valerio, Pesaro Italia</figcaption>
+<figcaption>Villa Rosa, Martinsicuro TE 2015</figcaption>
 
 </figure>
