@@ -27,6 +27,14 @@ creates a "bond" between the real sound of "tin cry" and an imaginary soundscape
 ---
 First Order Ambisonics to Stereo
 
+Spectrogram
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yiy2xoFvOsg" frameborder="0" allowfullscreen></iframe>
+
+Score
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V3ljekoHIIE" frameborder="0" allowfullscreen></iframe>
+
+
+LAC 2014 version
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HMfRpibSJ3o" frameborder="0"> </iframe>
 
 
