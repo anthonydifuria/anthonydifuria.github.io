@@ -76,6 +76,6 @@ External links:
 ##[ZKM Karlsruhe, Germany](http://zkm.de/) 
 
 
-{% soundcloud https://soundcloud.com/marinelli/fort-knox-five-presents-funk [option=value [option=value [...]]]%}
+
 
 
