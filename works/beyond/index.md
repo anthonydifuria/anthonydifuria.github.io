@@ -9,9 +9,9 @@ image:
   creditlink: 
 ---
 
-##La Chambre Blanche QUEBEC 2014
+## La Chambre Blanche QUEBEC 2014
 
-###Au-delà de l'atome humain
+### Au-delà de l'atome humain
 
 From August 19 to September 21 2014, LA CHAMBRE BLANCHE welcomes the Italian artist Anthony Di Furia for a 
 site-specific residency. This event is a part of an exchange program with the center Rad’Art located in Italy.
@@ -72,9 +72,9 @@ First Order Ambisonics to Binaural
 
 External Links:
 
-##[LA CHAMBRE BLANCHE](http://www.chambreblanche.qc.ca/fr/) 
+### [LA CHAMBRE BLANCHE](http://www.chambreblanche.qc.ca/fr/) 
 
-##[RAD' ART](http://www.rad-art.org/rad_art/radart1.htm) 
+### [RAD' ART](http://www.rad-art.org/rad_art/radart1.htm) 
 
 
 
