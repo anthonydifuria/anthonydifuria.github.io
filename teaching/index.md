@@ -53,6 +53,7 @@ Pipe-Organ in Auditorium Pedrotti - Conservatory of Pesaro.
 #### Mastro's Delirium
 
 Sound Effect and Techniques of sound synthesis:
+
 - LFO
 - REVERB
 - TIME MODULATION in REVERB
