@@ -36,7 +36,6 @@ Analysis</a></div>
 
 <div markdown="0"><a href="/works/percorsi" class="btn">Percorsi Ondivaghi</a></div>
 <div markdown="0"><a href="/works/soul" class="btn">Engraving Soul</a></div>
-<div markdown="0"><a href="/works/cavazzoni" class="btn">Ermanno Cavazzoni Show Conference</a></div>
 <div markdown="0"><a href="/works/young" class="btn">Young-Visions</a></div>
 
 ## Sonification
