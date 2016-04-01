@@ -10,6 +10,11 @@ image:
   
 ---
 
+Etherotopie is an art project conceived by Roberto Vecchiarelli, in which I worked for the realization of electroacoustic composition with Eugenio Giordani.
+
+Electroacoustic composition is entirely created by recording and transforming the sound of the metal dome of the 'Valerio Observatory in Pesaro. The Observatory tells an important story of the city of Pesaro, through the museum of meteorological measuring instruments, the library with the meteorological data of the last century and the room in which is located the old astronomical observatory.
+
+The general idea is based on the creation of semantic illusions through the transformation of sound, supported by very precise electronic interventions. The ambisonics was used to distribute and move the various gestures and textures, reconstructing a possible soundscape that sways between reality and transcendence.
 
 First Order Ambisonics to Stereo
 
