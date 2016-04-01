@@ -11,8 +11,6 @@ image:
 
 ---
 
-## Young-Visions
-
 This work represents some aspects of my childhood, tells some places I frequented when I was very young, concrete elements blend with synthetic ones trying to imitate.
 
 They are not memories are simple visions.
