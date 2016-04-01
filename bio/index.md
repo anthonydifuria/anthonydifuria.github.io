@@ -69,14 +69,14 @@ His work ranges from Sound Research, Sound Designer, programming, live electroni
 
 ## SoundScape - Field Recording
 
-- SoundField Recording for Multimedia Installation - "Palela 0.1" - Urbino (2015)
-- SoundField Recording "SoundScape" - Quebec City (2014)
+- Field Recording for Multimedia Installation - "Palela 0.1" - Urbino (2015)
+- Field Recording "SoundScape" - Quebec City (2014)
 - Sound Library - PIANPICOLLO SELVATICO - Italy (2014)
 - Soundscape Composition - "Per chi suona il paesaggio" - MEETING FKL Florence (2014) 
 - Soundscape Composition - SUONO - RAD'ART Mercato Saraceno, Italy (2014)
-- SoundField Recording - "SoundWalk Pesaro" with Eugenio Giordani - Pesaro (2013)
-- SoundField Recording - "Giulio Perticari Park" with S. Vinciarelli, N. Di Gregorio - Italy (2012)
-- SoundField Recording - "Ear to the earth" Soundwalk with Hildegard Westerkamp - Pesaro (2012) 
+- Field Recording - "SoundWalk Pesaro" with Eugenio Giordani - Pesaro (2013)
+- Field Recording - "Giulio Perticari Park" with S. Vinciarelli, N. Di Gregorio - Italy (2012)
+- Field Recording - "Ear to the earth" Soundwalk with Hildegard Westerkamp - Pesaro (2012) 
 
 ---
 
