@@ -16,6 +16,8 @@ image:
 
 #### Water Transform
 
+The sound processing has been realized through a time-stretching and reverb.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uHYPPBytZ8I" frameborder="0" allowfullscreen></iframe>
 
 [WATER TRANSFORM - (soundcloud)](https://soundcloud.com/anthony-di-furia/example-water-transform) 
