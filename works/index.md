@@ -45,9 +45,8 @@ Analysis</a></div>
 
 <div markdown="0"><a href="/works/warm" class="btn">The Warm Feeling of Cold ALEX PAOLINI</a></div>
 
-## Other Works
+## [Other Works](http://www.anthonydifuria.com/works/otherworks)
 
-<div markdown="0"><a href="/works/otherworks" class="btn">Other Works</a></div>
  
 ---
 
