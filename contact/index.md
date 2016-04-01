@@ -15,28 +15,7 @@ image:
 
 ###email: anthonydifuria.sound[at]gmail.com
 
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
 
 
 thanks to
