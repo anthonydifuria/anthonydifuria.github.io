@@ -11,9 +11,9 @@ image:
 
 ---
 
-##Anthony Di Furia - Italy
+Anthony Di Furia - Italy
 
-###email: anthonydifuria.sound[at]gmail.com
+email: anthonydifuria.sound[at]gmail.com
 
 ---
 
