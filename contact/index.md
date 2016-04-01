@@ -11,7 +11,7 @@ image:
 
 ---
 
-#Anthony Di Furia - Italy
+Anthony Di Furia - Italy
 
 email: anthonydifuria.sound[at]gmail.com
 
@@ -20,11 +20,11 @@ email: anthonydifuria.sound[at]gmail.com
 
 thanks to
 
-#####Paolo Mainardi - Twinbit CTO 
+Paolo Mainardi - Twinbit CTO 
 
 <div markdown="0"><a href="http://www.twinbit.it/it" class="btn">TWINBIT</a></div>
 
-#####Carol-Ann Belzil Normand 
+Carol-Ann Belzil Normand 
 for "website LOGO"
 
 <div markdown="0"><a href="http://carolannbelzilnormand.com/" class="btn">Carol-Ann Belzil Normand</a></div>
