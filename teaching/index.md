@@ -71,6 +71,14 @@ image:
 
 ---
 
+## CODE
 
+#### My Journey in C++
+
+[My Journey in C++ - Repository GitHub](https://github.com/anthonydifuria/My-Journey-in-Cpp)
+
+#### SuperCollider Example Code
+
+[Supercollider Example Code - Repository GitHub](https://github.com/anthonydifuria/supercollider_example_code)
 
 
