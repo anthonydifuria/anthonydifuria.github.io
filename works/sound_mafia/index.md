@@ -17,4 +17,4 @@ image:
 
 External Links:
 
-## [Confiscati Bene](http://www.confiscatibene.it/it) 
+[Confiscati Bene](http://www.confiscatibene.it/it) 
