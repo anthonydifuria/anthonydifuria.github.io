@@ -11,7 +11,7 @@ image:
 
 ---
 
-La ricerca sonora esposta in questo documento, nasce direttamente dal progetto “Confiscati Bene” (http://www.confiscatibene.it/it)
+La ricerca sonora esposta in questo documento, nasce direttamente dal progetto “Confiscati Bene” 
 
 In home page questa piccola descrizione sintetizza chiaramente i principi del progetto:
 
