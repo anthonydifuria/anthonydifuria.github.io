@@ -45,6 +45,7 @@ His work ranges from Sound Research, Sound Designer, programming, live electroni
 
 ## Sound Art 
 
+- Electroacoustic Composition - ["Lampi sull'Eni" - Liquidi Volumi TeverEterno (Rome 2016)](http://www.tevereterno.it/it/arts/ycc/)
 - Sound Installation - A/traverso "Percorsi Ondivaghi" - Martinsicuro TE (2015)
 - Live Electronics - "SGUARDI SONORI" - Ancona (2014) 
 - Theater, Sound Design - "LA FUGA" - with Stefano Vinciarelli - Festival Villa Castelle PU (2013)
@@ -62,7 +63,8 @@ His work ranges from Sound Research, Sound Designer, programming, live electroni
 
 ## Sound Engineer
 
-- Recording, Mixing, Sound Design - "The Warm Feeling of Cold" - ALEX PAOLINI - Italy (2013)
+- Recording, Mixing, Matering - [Trace Elements: Electric Trip (Live in Teramo Again) - Paolo Di Sabatino, Christian Galvez & Dennis Chambers (Italy 2016)](https://itunes.apple.com/us/album/trace-elements-electric-trip/id1163734863)
+- Recording, Mixing, Sound Design - ["The Warm Feeling of Cold" - ALEX PAOLINI - Italy (2013)](https://soundcloud.com/alex9strokedrummer)
 - Technical Advice - "Pulsazioni 1" - by Stefano Boffi - Italy (2013)
 - Recording "unreleased music FERRONI ZANDONAI" - with David Monacchi - Todi, Italy (2013)
 - Technical Advice - "Ascolta la musica che ti ascolta" by W. Branchi and D. Monacchi - Trieste (2011)
