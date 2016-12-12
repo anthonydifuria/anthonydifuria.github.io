@@ -4,8 +4,8 @@ title: Lampi sull'Eni
 excerpt: ""
 modified: 
 image: 
-  feature: alex1.jpg
-  credit: Mos Agency
+  feature: 
+  credit: 
   creditlink: 
   
 ---
