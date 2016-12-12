@@ -63,7 +63,8 @@ His work ranges from Sound Research, Sound Designer, programming, live electroni
 
 ## Sound Engineer
 
-- Recording, Mixing, Matering - [Trace Elements: Electric Trip (Live in Teramo Again) - Paolo Di Sabatino, Christian Galvez & Dennis Chambers (Italy 2016)](https://itunes.apple.com/us/album/trace-elements-electric-trip/id1163734863)
+- Recording, Mixing, Mastering - [Trace Elements: Electric Trip (Live in Teramo Again) - Paolo Di Sabatino, Christian Galvez & Dennis Chambers (Italy 2016)](https://itunes.apple.com/us/album/trace-elements-electric-trip/id1163734863)
+- Recording, Mixing, Mastering - ["Sinking Lads EP" (Italy 2016)](https://www.youtube.com/channel/UC_hbZUVCU3NaJ1dfczlpoYQ/videos)
 - Recording, Mixing, Sound Design - ["The Warm Feeling of Cold" - ALEX PAOLINI - Italy (2013)](https://soundcloud.com/alex9strokedrummer)
 - Technical Advice - "Pulsazioni 1" - by Stefano Boffi - Italy (2013)
 - Recording "unreleased music FERRONI ZANDONAI" - with David Monacchi - Todi, Italy (2013)
