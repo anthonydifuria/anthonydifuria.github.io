@@ -26,6 +26,7 @@ The love for the sound improves human and natural communications, it sensitizes 
 
 ## Ambisonics
 
+ <div markdown="0"><a href="/works/wildplane" class="btn">Piano Selvatico - Italy/Ireland 2016</a></div>
  <div markdown="0"><a href="/works/etherotopie" class="btn">Etherotopie - PESARO 2014</a></div>
 <div markdown="0"><a href="/works/beyond" class="btn">Beyond The Human Atom - QUEBEC 2014</a></div>
 <div markdown="0"><a href="/works/tincry" class="btn">Through the Space of Crying  - LAC2014</a></div>
@@ -34,8 +35,10 @@ Analysis</a></div>
 
 ## Sound Art
 
+<div markdown="0"><a href="/works/lampi" class="btn">Lampi sull'Eni</a></div>
 <div markdown="0"><a href="/works/percorsi" class="btn">Percorsi Ondivaghi</a></div>
 <div markdown="0"><a href="/works/young" class="btn">Young-Visions</a></div>
+
 
 ## Sonification
 
