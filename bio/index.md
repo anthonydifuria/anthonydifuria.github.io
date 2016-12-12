@@ -32,13 +32,13 @@ His work ranges from Sound Research, Sound Designer, programming, live electroni
 ## Ambisonics
 
 - Soundscape Composition - Piano Selvatico (Wild Plane) - [Pianpicollo Selvatico (Levice 2016)](http://pianpicolloselvatico.org/piano-selvatico/) - ["Csound30" Maynooth University (Ireland 2016)](http://csound.github.io/csound30/)
+- Sound Design with David Monacchi - Movie: [ "Dusk Chorus" director Nika Saravanja, Alessandro D’Emilia (2016)](http://www.zeligfilm.it/en/duskchorus)
 - Electroacoustic Composer and Sound Design - Movie:[ "ANANKE" director Claudio Romano (2015)](https://www.youtube.com/watch?v=e3WNlRwYLUo)
-
-- Sound Developer - ["Fragments Of Extinction" by David Monacchi - Italy (2015)]
-- Artist Residency Site-Specific - "Beyond the Human Atom" - La Chambre Blanche (2014)
-- Electroacoustic Composition - "Etherotopie" - Conservatory of Pesaro SPACE (2014)
-- Electroacoustic Composition - "Through the space of crying" - LAC2014 ZKM Kubus (2014)
-- Analysis - "A new Recording Approach in Primary Equatorial Forests" by David  Monacchi (2014)
+- Sound Developer - ["Fragments Of Extinction" by David Monacchi - Italy (2015)](http://www.fragmentsofextinction.org/)
+- Artist Residency Site-Specific - ["Beyond the Human Atom" - La Chambre Blanche (2014)](http://www.rad-art.org/artists/Anthony_di_Furia/radart_artists_anthonydifuria_1.htm)
+- Electroacoustic Composition - ["Etherotopie" - Conservatory of Pesaro SPACE (2014)](https://www.youtube.com/watch?v=tQFToiL1jiU)
+- Electroacoustic Composition - ["Through the space of crying" - LAC2014 ZKM Kubus (2014)](http://lac.linuxaudio.org/2014/about)
+- Analysis - ["A new Recording Approach in Primary Equatorial Forests" by David  Monacchi (2014)](https://ecoacoustics.sciencesconf.org/34572)
 - Ambisonics Spatialization - "De Divina Proportione" by Simone Sorini and David Monacchi (2011)
 
 ---
