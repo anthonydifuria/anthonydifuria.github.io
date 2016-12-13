@@ -45,6 +45,7 @@ His work ranges from Sound Research, Sound Designer, programming, live electroni
 
 ## Sound Art 
 
+- Theatre, Sound Design, Electroacoustic Composition - "La Perdita" by Diana Ripani (Italy 2016)
 - Electroacoustic Composition - ["Lampi sull'Eni" - Liquidi Volumi TeverEterno (Rome 2016)](http://www.tevereterno.it/it/arts/ycc/)
 - Sound Installation - A/traverso "Percorsi Ondivaghi" - Martinsicuro TE (2015)
 - Live Electronics - "SGUARDI SONORI" - Ancona (2014) 
