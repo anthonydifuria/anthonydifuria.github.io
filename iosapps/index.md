@@ -47,11 +47,13 @@ Support: anthonydifuria.sound@gmail.com
 
 Special Thanks to:
 Alessandro Petrolati - apeSoft
-www.apesoft.it
+
+[www.apesoft.it](https://www.apesoft.it) 
 
 Victor Lazzarini and Steven Yi for Csound for IOS
-www.csounds.com
 
-Esoteric Synth Manual: http://www.anthonydifuria.com/Manuals/Esoteric_Synth_UserGuide.pdf
+[www.csounds.com](https://www.csounds.com) 
+
+[Esoteric Synth Manual](http://www.anthonydifuria.com/Manuals/Esoteric_Synth_UserGuide.pdf) 
 
 ---
