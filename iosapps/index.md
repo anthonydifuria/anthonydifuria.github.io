@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact
+title: IOS Apps
 excerpt: 
 modified: {} 
 image:
