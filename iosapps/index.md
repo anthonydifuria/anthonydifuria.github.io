@@ -14,7 +14,7 @@ image:
 ## Esoteric Synth
 
 <figure class="half">
-	<img src="/images/120.png" alt="image">
+	<img src="/images/1024.png" alt="image">
 </figure>
 ---
 
