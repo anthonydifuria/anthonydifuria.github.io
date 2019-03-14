@@ -12,6 +12,10 @@ image:
 ---
 
 ## Esoteric Synth
+
+<figure class="half">
+	<img src="/images/120.png" alt="image">
+</figure>
 ---
 
 [Esoteric Synth App Store](https://itunes.apple.com/gb/app/esoteric-synth/id1454932009) 
