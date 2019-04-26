@@ -61,3 +61,33 @@ Victor Lazzarini and Steven Yi for Csound for IOS
 [Esoteric Synth Manual](http://www.anthonydifuria.com/Manuals/Esoteric_Synth_UserGuide.pdf) 
 
 ---
+
+## Delayrium
+
+<figure class="half">
+	<img src="/images/Delarium1024.png" alt="image" width="124" height="124">
+</figure>
+---
+
+
+Delayrium is a MultiDelay Audio Units PlugIn in parallel approach.                                                                                                                                                                                              It is made da 6 delay line with controls in Time, Time Modulation, Feedback, Panning Modulation and Amplitude Modulation.
+It can be use as classic delay or sperimental mode for sound design and more.                                                                                                                                                              Delayrium contains 2 Audio Unit Plugin: Mono and Stereo mode.
+
+---
+
+
+
+---
+
+Support: anthonydifuria.sound@gmail.com
+
+Special Thanks to:
+Alessandro Petrolati - apeSoft
+
+[www.apesoft.it](https://www.apesoft.it) 
+
+Victor Lazzarini and Steven Yi for Csound for IOS
+
+[www.csounds.com](https://www.csounds.com) 
+
+
