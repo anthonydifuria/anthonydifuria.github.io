@@ -65,8 +65,9 @@ Victor Lazzarini and Steven Yi for Csound for IOS
 ## Delayrium
 
 <figure class="half">
-	<img src="/images/Delarium1024.png" alt="image" width="124" height="124">
+	<img src="/images/Delayrium1024.png" alt="image" width="124" height="124">
 </figure>
+
 ---
 
 
