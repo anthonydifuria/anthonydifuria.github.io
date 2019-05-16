@@ -71,8 +71,18 @@ Victor Lazzarini and Steven Yi for Csound for IOS
 ---
 
 
-Delayrium is a MultiDelay Audio Units PlugIn in parallel approach.                                                                                                                                                                                              It is made da 6 delay line with controls in Time, Time Modulation, Feedback, Panning Modulation and Amplitude Modulation.
-It can be use as classic delay or sperimental mode for sound design and more.                                                                                                                                                              Delayrium contains 2 Audio Unit Plugin: Mono and Stereo mode.
+Delayrium is a MultiDelay Audio Units PlugIn in parallel approach. It is based on 6 delay line with controls in Time, Time Modulation, Feedback, Panning Modulation and Amplitude Modulation.
+It can be use as classic delay or sperimental mode for sound design and more. Delayrium contains 2 Audio Unit Plugin: Mono and Stereo mode.
+
+Features:
+- AUv3 Audio Unit Effect (apeMatrix, AUM, Cubasis, Nano Studio...)
+- 6 Delay Line
+- Time Control (time and bpm)
+- Time Modulation
+- Panning
+- Panning Modulation (time and bpm)
+- Amplitude Modulation
+- Preset System
 
 ---
 
