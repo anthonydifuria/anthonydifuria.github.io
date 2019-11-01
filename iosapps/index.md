@@ -105,4 +105,45 @@ Victor Lazzarini and Steven Yi for Csound for IOS
 
 [www.csounds.com](https://www.csounds.com) 
 
+## RealDelayrium
 
+<figure class="half">
+	<img src="/images/Delayrium1024.png" alt="image" width="124" height="124">
+</figure>
+
+---
+
+
+RealDelayrium is a MultiDelay Audio Units PlugIn in parallel approach. It is based on 6 delay line with controls in Time, Feedback, Reson Filter, Frequency Modulation, LowPass, HighPass and Air Filter.
+It can be use as classic delay or sperimental mode for sound design and more. RealDelayrium contains 2 Audio Unit Plugin: Mono and Stereo mode.
+
+Features:
+- AUv3 Audio Unit Effect (apeMatrix, AUM, Cubasis, Nano Studio...)
+- 6 Delay Line
+- Distance control and Delay Time
+- Reson Filter
+- Frequency Modulation of the Reson Filter
+- LowPass and HighPass Filter
+- Air Filter
+- Preset System
+
+---
+
+Test RealDelayrium in apeMatrix
+
+
+
+
+
+---
+
+Support: anthonydifuria.sound@gmail.com
+
+Special Thanks to:
+Alessandro Petrolati - apeSoft
+
+[www.apesoft.it](https://www.apesoft.it) 
+
+Victor Lazzarini and Steven Yi for Csound for IOS
+
+[www.csounds.com](https://www.csounds.com) 
