@@ -110,7 +110,7 @@ Victor Lazzarini and Steven Yi for Csound for IOS
 ## RealDelayrium
 
 <figure class="half">
-	<img src="/images/1024.png" alt="image" width="124" height="124">
+	<img src="/images/real1024.png" alt="image" width="124" height="124">
 </figure>
 
 ---
