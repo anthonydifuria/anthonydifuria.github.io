@@ -44,6 +44,9 @@ apeMatrix Test
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IQwH2m5BBQo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+ESOTERIC SYNTH ver1.3 TUTORIAL
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLhb6akaXqVg1Vkiaofhda8m_L0y9kQGHp" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -135,7 +138,9 @@ Test RealDelayrium in apeMatrix
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jyaSGysDekw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+RealDelayrium ver 1.1 TUTORIAL
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLhb6akaXqVg0YhpNJjpHUqJYt70tPAnHD" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
