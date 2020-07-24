@@ -196,3 +196,51 @@ Alessandro Petrolati - apeSoft
 Victor Lazzarini and Steven Yi for Csound for IOS
 
 [www.csounds.com](https://www.csounds.com) 
+
+---
+
+## Dystopia - COMING SOON in APPLE STORE
+
+<figure class="half">
+	<img src="/images/SIMBOLO_DYSTOPIA.png" alt="image" width="124" height="124">
+</figure>
+
+---
+
+Dystopia is an experimental distortion for sound transfiguration, it is composed of 7 AUv3 plugins:
+
+1 - DyStort is composed of an input low pass filter, distortion type selector, Dist which acts as a quantity of distortion and a
+output lowpass filter.
+
+2 -DySine consists of a sine wave oscillator as driver, controlled by a LowPass filter of the input signal to be transfigured, Gain IN which acts as driver activator, Frequency controls the oscillator frequency, Gain OUT controls the level of distortion and a lowpass filter at the output resulting signal.
+
+3 -DyFM is composed of a driver formed by a frequency modulated sinosuidal oscillator controlled by a lowpass filter applied to the input signal to be transfigured, GainIN acting as driver activator, FreqDev / FreqMod / Frequency are the parameters of the frequency modulation, GainOUT which controls the level of distortion and a lowpass filter at the output of the resulting signal.
+
+4 -DySelf is a distortion that uses the same input signal as driver, it is controlled by an input lowpass filter, driver mix between SELF and INVERSE, GainOut that controls the amount of distortion and a output lowpass filter.
+
+5 - DyGauss has as driver a Gaussian noise generator controlled by a lowpass filter at the input of the signal to be transfigured, a lowpass filter applied to the generator, a potentiometer for selecting the operation of the driver (Gauss / Inverse), a GainOut that controls the amount of distortion and a output lowpass filter.
+
+6 - DyNoise is composed of a driver formed by a sine wave oscillator in which the frequency is randomly controlled between a min and a max value, a GainOut that controls the amount of distortion and a output lowpass filter.
+
+All plugins have input and output controls with relative meter in RMS or dBFS mode and a second stage with a BandPass filter.
+
+7 - DyStopia is an AudioUnit plugin that contains all the other plugins with the addition of a waterfall matrix in which we can divert the signals of the different distortions.
+
+---
+
+
+
+---
+
+Support: anthonydifuria.sound@gmail.com
+
+Special Thanks to:
+Alessandro Petrolati - apeSoft
+
+[www.apesoft.it](https://www.apesoft.it) 
+
+Victor Lazzarini and Steven Yi for Csound for IOS
+
+[www.csounds.com](https://www.csounds.com) 
+
+---
