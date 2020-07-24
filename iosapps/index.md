@@ -40,6 +40,19 @@ MonoGranulator AUv3 Audio Units - Live Electronics example performed in apeMatri
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Lfm-Fs7I2Xg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Support: anthonydifuria.sound@gmail.com
+
+Special Thanks to:
+Alessandro Petrolati - apeSoft
+
+[www.apesoft.it](https://www.apesoft.it) 
+
+Victor Lazzarini and Steven Yi for Csound for IOS
+
+[www.csounds.com](https://www.csounds.com) 
+
+---
+
 ## Esoteric Synth
 
 <figure class="half">
