@@ -199,7 +199,7 @@ Victor Lazzarini and Steven Yi for Csound for IOS
 
 ---
 
-## Dystopia - COMING SOON in APPLE STORE
+## Dystopia - COMING SOON on APPLE STORE
 
 <figure class="half">
 	<img src="/images/SIMBOLO_DYSTOPIA.png" alt="image" width="124" height="124">
