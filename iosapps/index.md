@@ -11,6 +11,35 @@ image:
 
 ---
 
+## MonoGranulator
+
+<figure class="half">
+	<img src="/images/Monogran.png" alt="image" width="124" height="124">
+</figure>
+---
+
+[MonoGranulator App Store](https://apps.apple.com/us/app/monogranulator/id1436174474) 
+
+MonoGranulator - a simple granular synthesis for live electronics
+
+Features:
+- AUv3 Audio Units Fx
+- Audiobus 3 and Inter-App Audio Filter
+- Waveform
+- Density and Duration
+- Control Pitch
+- FM and AM apply in every grain
+- Resonant Filter
+- Sound Source Localization, Reverb
+
+Monogranulator - Standalone Version
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vSHf3cROk3E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+MonoGranulator AUv3 Audio Units - Live Electronics example performed in apeMatrix (Audio Unit Host)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Lfm-Fs7I2Xg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Esoteric Synth
 
 <figure class="half">
