@@ -252,7 +252,7 @@ Victor Lazzarini and Steven Yi for Csound for IOS
 
 
 <figure class="half">
-	<img src="/images/SIMBOLO_DYSTOPIA.png" alt="image" width="124" height="124">
+	<img src="/images/LOGO_MODELAYRIUM_FINALE_senza_sfondo.png" alt="image" width="124" height="124">
 </figure>
 
 ---
