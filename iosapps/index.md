@@ -199,13 +199,14 @@ Victor Lazzarini and Steven Yi for Csound for IOS
 
 ---
 
-## Dystopia - COMING SOON on APPLE STORE
+## Dystopia 
 
 <figure class="half">
 	<img src="/images/SIMBOLO_DYSTOPIA.png" alt="image" width="124" height="124">
 </figure>
 
 ---
+[Dystopia App Store](https://apps.apple.com/it/app/dystopia/id1524937873)
 
 Dystopia is an experimental distortion for sound transfiguration, it is composed of 7 AUv3 plugins:
 
@@ -231,6 +232,41 @@ All plugins have input and output controls with relative meter in RMS or dBFS mo
 Dystopia AUv3 TUTORIAL in apeMatrix
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wLv4Kp1AFjQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+Support: anthonydifuria.sound@gmail.com
+
+Special Thanks to:
+Alessandro Petrolati - apeSoft
+
+[www.apesoft.it](https://www.apesoft.it) 
+
+Victor Lazzarini and Steven Yi for Csound for IOS
+
+[www.csounds.com](https://www.csounds.com) 
+
+---
+
+## MoDelayrium - COMING SOON on APPLE STORE
+
+
+<figure class="half">
+	<img src="/images/SIMBOLO_DYSTOPIA.png" alt="image" width="124" height="124">
+</figure>
+
+---
+
+MoDelayrium is a Audio Units Plugin Suite and it is composed by 4 auv3: ChoriumUnus, DoppleriumUnus, ReverbiumUnus, and TremuloriumUnus.
+
+ChoriumUnus is an chorus/flanger effects with 3 voices and controls of stereo space, low-pass and high-pass filter.
+DoppleriumUnus is an strange doppler effect with controls of time, distance, feeedback, airfilter, stereo width, low-pass and high-pass filter.
+ReverbiumUnus is an reverb effect in wich we have a pre-delay and post-delay with controls of feedback and depth.
+TremuloriumUnus is a tremolo effect with 6 voices and controls of rate, stereo width, rate resize, low-pass and high-pass filter.
+
+---
+
+
 
 ---
 
