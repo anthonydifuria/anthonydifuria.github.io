@@ -259,9 +259,9 @@ Victor Lazzarini and Steven Yi for Csound for IOS
 
 MoDelayrium is a Audio Units Plugin Suite and it is composed by 4 auv3: ChoriumUnus, DoppleriumUnus, ReverbiumUnus, and TremuloriumUnus.
 
-ChoriumUnus is an chorus/flanger effects with 3 voices and controls of stereo space, low-pass and high-pass filter.
-DoppleriumUnus is an strange doppler effect with controls of time, distance, feeedback, airfilter, stereo width, low-pass and high-pass filter.
-ReverbiumUnus is an reverb effect in wich we have a pre-delay and post-delay with controls of feedback and depth.
+ChoriumUnus is a chorus/flanger effects with 3 voices and controls of stereo space, low-pass and high-pass filter.
+DoppleriumUnus is a strange doppler effect with controls of time, distance, feeedback, airfilter, stereo width, low-pass and high-pass filter.
+ReverbiumUnus is a reverb effect in wich we have a pre-delay and post-delay with controls of feedback and depth.
 TremuloriumUnus is a tremolo effect with 6 voices and controls of rate, stereo width, rate resize, low-pass and high-pass filter.
 
 ---
