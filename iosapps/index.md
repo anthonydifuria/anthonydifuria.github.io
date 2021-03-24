@@ -248,7 +248,7 @@ Victor Lazzarini and Steven Yi for Csound for IOS
 
 ---
 
-## MoDelayrium - COMING SOON on APPLE STORE
+## MoDelayrium
 
 
 <figure class="half">
@@ -256,6 +256,7 @@ Victor Lazzarini and Steven Yi for Csound for IOS
 </figure>
 
 ---
+[MoDelayrium App Store](https://apps.apple.com/us/app/id1559101828)
 
 MoDelayrium is a Audio Units Plugin Suite and it is composed by 4 auv3: ChoriumUnus, DoppleriumUnus, ReverbiumUnus, and TremuloriumUnus.
 
