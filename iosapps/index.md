@@ -285,9 +285,12 @@ Victor Lazzarini and Steven Yi for Csound for IOS
 [www.csounds.com](https://www.csounds.com) 
 
 ---
----
 
 ## MolochVox
+
+<figure class="half">
+	<img src="/images/ICONA_MOLOCH2.png" alt="image" width="124" height="124">
+</figure>
 
 ---
 
