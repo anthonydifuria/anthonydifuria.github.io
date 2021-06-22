@@ -285,3 +285,34 @@ Victor Lazzarini and Steven Yi for Csound for IOS
 [www.csounds.com](https://www.csounds.com) 
 
 ---
+---
+
+## MolochVox
+
+---
+
+MolochVox is a Pitch Shifter and Frequency Shifter consisting of 5 Auv3 plugins:
+MolochVox One, MolochVox Two, MolochVox Three, MolochVox Four, MolochVox Five.
+In the 5 MolochVox we find Pitch Shift and Frequency Shift controls, harmonic series, inverse harmonic series and geometric series. We can freeze and we can cross fade in Linear Interpolation, Crossing and Morphing modes.
+
+---
+
+Test MolochVox in ApeMatrix
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5jr9m_zGvsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+Support: anthonydifuria.sound@gmail.com
+
+Special Thanks to:
+Alessandro Petrolati - apeSoft
+
+[www.apesoft.it](https://www.apesoft.it) 
+
+Victor Lazzarini and Steven Yi for Csound for IOS
+
+[www.csounds.com](https://www.csounds.com) 
+
+---
+
