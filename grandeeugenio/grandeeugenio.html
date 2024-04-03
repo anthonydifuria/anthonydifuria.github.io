@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grande Eugenio!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Grande Eugenio!</h1>
+        <nav>
+            <ul>
+                <li><a href=http://www.eugeniogiordani.it/>Eugenio Giordani</a></li>
+                <li><a href=https://www.spaziogege.it/>Spazio GeGe</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p>
+            Durante il periodo di natale del 2019, mi venne in mente di costruire un semplice generatore di eventi sonori sintetici con Arduino, Raspberry Pi e Csound da regalare ad Eugenio per il suo pensionamento dal Conservatorio di Pesaro. L'idea alla base è relativa ad uno degli approcci di generazione sonora che Eugenio utilizzava durante le lezioni di Musica Elettronica. 
+Questi insegnamenti mi hanno sempre affascinato, poiché il potere di generazione in tempo reale era veramente incredibile. L'idea compositiva e creativa molte volte prendeva forma dalla creazione dello strumento stesso.
+<br>
+<h1>GrandeEugenio</h1>
+<br>
+Lo strumento <b>GrandeEugenio</b> è un generatore di eventi sonori sinusoidali su cui viene applicata un auto-modulazione di ampiezza e di frequenza. 
+<br>
+I parametri di constrollo sono:<br>
+Densità: numero di eventi al secondo<br>
+Durata: durata del singolo evento<br>
+Frequenza: controllo delle frequenza dell'oscillatore per ogni evento<br>
+Spread Frequenziale: controllo della frequenza in un certo intervallo.<br>
+Inviluppo: profilo dinamico di ogni evento<br>
+Serie Armonica e Geometrica.<br>
+Auto-Modulazione di ampiezza e di frequenza.<br>
+
+        </p>
+<hr>
+        <b>REALIZZAZIONE</b>
+        <p>Progettazione, sviluppo e implementazione di un generatore di eventi sonori (sintetizzatore) in Csound,
+            installato su Raspberry Pi e controllato con Arduino Mega2560. Il generatore é dedicato ad Eugenio Giordani
+            e al suo approccio specifico su Csound.
+            <br>
+            Catena di connessione:<br>
+            - Controlli Fisici (potenziometri)<br>
+            - Arduino Mega2560 (programmazione scheda – invio dati di controllo tramite porta seriale USB)<br>
+            - Raspberry Pi (Macchina)<br>
+            - Csound (implementazione generatore – lettura dati di controllo tramite porta seriale)<br>
+        </p>
+
+        <img src="catenaGrandeEugenio.png" alt="" width="40%" height="40%" align="middle">
+        <br><br><br>
+
+        <h1>Arduino</h1>
+        <p>
+            Installazione ambiente di sviluppo
+            <a href="https://www.arduino.cc/en/software" style="color:yellow">ARDUINO IDE</a>.<br><br>
+
+            <b>Porta Seriale</b><br>
+            lo scambio di dati avviene tramite porta seriale da Arduino a Csound e viceversa, <br>
+            anche se questa ultima modalità nel progetto non è utilizzata.<br><br><br>
+        </p>
+
+        <hr>
+        <h1>Connessioni e relativo codice - TEST con 2 potenziometri</h1>
+        <img src="testPotenziometri.png" alt="" width="40%" height="40%"><br>
+
+        <div id="codice">
+            <!-- Contenuto del codice -->
+
+            <hr>
+            <pre><code id="codiceTesto">
+                
+                    //TEST ARDUINO POTENZIOMETRI<br>
+                    //KNOB <br>
+                    //Definisce un array di valori corrispondenti ai canali dei knobs connessi ad ardunio
+                    int knobs[] = {0,1}; <br>
+                    //Inizializza un array vuoto da riempire con i valori dei knobs
+                    int ValueKnobs[2]; <br>
+                    //Inizializza un array vuoto da riempiri con i valori dei knob in ritardo
+                    int ValueKnobsDel[2]; <br>
+                    //Inizializza un array vuoto da riempiri con i valori di ValueKnobs - ValueKnobsDel
+                    int ValueKnobsDif[2]; <br>
+                    //Inizializza un array vuoto da riempiri con i valori scalati da 0-1023 a 0-200
+                    int ValueOutKnobs[2]; <br>
+                   
+                    
+                    void setup() { <br>
+                      //inizializzo la porta seriale e decido la velocità (9600)
+                      Serial.begin(9600); <br>
+                    } <br>
+                    
+                    void loop() { <br>
+                      //KNOB <br>
+                      for (int i = 0; i < 2; i++) { <br>
+                    
+                        //I valori di tensione vengono passati all'array ValueKnobs attraverso analogRead
+                        //impostando attraverso knobs[i] i canali analogici di arduino
+                        ValueKnobs[i] = analogRead(knobs[i]); <br>
+
+                        //differenza tra i valori attuali e valori in ritardo
+                        ValueKnobsDif[i] = abs(ValueKnobs[i] - ValueKnobsDel[i]); <br>
+                        //calcola i valori in ritardo
+                        ValueKnobsDel[i] = ValueKnobs[i]; <br>
+                    
+                        if (ValueKnobsDif[i] > 0) { <br>
+                          //scala i valori da 0-1023 a 0-200
+                          ValueOutKnobs[i] = map(ValueKnobs[i], 0, 1023, 0, 200); <br>
+                            
+                          //aspetta 20 millesimi di secondo
+                          delay(20); <br>
+                          //invia attraverso la porta seriale il "nome del knob"
+                          Serial.write(210 + i); <br>
+                          //invia attraverso la porta seriale i valori tra 0 e 200 del knobs
+                          Serial.write(ValueOutKnobs[i]);<br>
+                          
+                          //STAMPA I VALORI SUL MONITOR
+                          Serial.println(210 + i); <br>
+                          Serial.println(ValueOutKnobs[i]);<br>
+                        } <br>
+                      }
+
+</code></pre>
+            <button onclick="copiaTesto()" class="copy-button">Copy</button>
+        </div>
+
+        <hr>
+        <br><br><br>
+
+        <h1>Csound</h1>
+        <p>
+            Csound è un linguaggio di programmazione per il suono, è stato originariamente sviluppato da
+            Barry Vercoe nel 1985 presso il MIT Media Lab. 
+            
+            Csound è stato tradizionalmente utilizzato in un contesto non interattivo basato su partiture, ma
+            ultimamente è utilizzato principalmente in un contesto in tempo reale. 
+        </p>
+        <a href="https://csound.com" style="color:yellow">Csound</a>.
+        <p>
+
+            <b>Installazione ambiente di sviluppo Cabbage</b>
+            <a href="https://cabbageaudio.com" style="color:yellow">Cabbage Audio</a>.<br><br>
+
+        <div id="codice">
+            <!-- Contenuto del codice -->
+
+            <hr>
+            <pre><code id="codiceTesto">
+                
+                 <p><h1>;CODICE TEST CON 2 POTENZIOMENTRI</h1>
+                    <<b>CsoundSynthesizer</b>>
+                    <<b>CsOptions</b>>
+                    -odac -d -m0d 
+                    <<b>/CsOptions</b>>
+                    <<b>CsInstruments</b>>
+                    
+                    ;inizializza le variabili globali
+                    sr = 44100 ;frequenza di campionamento
+                    ksmps = 128;rapporto tra sr e kr
+                    nchnls = 2 ;numero di canali
+                    0dbfs = 1  ;normalizzazione dell'ampizza
+                    
+                    opcode <b>ArduinoSerial</b>, k, kkiiii ;definizione di opcode
+                    
+                        kSerial, kValue, ivalue, iChannel,iMin,iMax xin
+                    
+                            if(kValue = ivalue)then
+                                if(kSerial != iChannel)then
+                                    kControl = kSerial   
+                                endif
+                                if(kControl > 190)then
+                                    kControl = 190   
+                                endif
+                                if(kControl < 5)then
+                                    kControl = 0   
+                                endif
+                            endif
+                            
+                            kControlOut = (kControl / 190) * (iMax - iMin) + iMin
+                     
+                         xout kControlOut 
+                    endop
+                            
+                    instr 1
+                    
+                        iPort <b>serialBegin</b> "/dev/cu.usbmodem14201", 9600;Porta Seriale Arduino
+                    
+                        kval serialRead iPort
+                     
+                            if(kval != -1)then;filtra il valore -1 dal flusso dati porta seriale
+                            kvalPot = kval 
+                            endif
+                    
+                            if(kvalPot == 210)then ;assegna il canale 210
+                            kval2 = 0
+                            elseif(kvalPot == 211)then; assegna il canale 211
+                             kval2 = 1
+                                
+                            endif
+                      
+                            gkAmp  <b>ArduinoSerial</b>  kvalPot,  kval2,  0, 210, 0 , 1
+                            gkFreq <b>ArduinoSerial</b>  kvalPot,  kval2,  1, 211, 50, 500
+                       
+                    endin
+                    
+                    instr 2
+                            
+                        aSig <b>oscili</b> gkAmp, gkFreq
+                        outs aSig, aSig
+                    
+                    endin
+                         
+                    <<b>/CsInstruments</b>>
+                    <<b>CsScore</b>>
+                    ;causes Csound to run for about 7000 years...
+                    f0 z
+                    
+                    i1 0 -1
+                    i2 0 -1
+                    <<b>/CsScore</b>>
+                    <<b>/CsoundSynthesizer</b>>  </p> 
+
+</code></pre>
+            <button onclick="copiaTesto()" class="copy-button">Copy</button>
+        </div>
+        
+<hr>
+        <h1>Installazione di Raspberry Pi OS e software necessari</h1><br>
+        - Installazione Raspberry Pi OS solo desktop<br>
+        <a href="https://www.raspberrypi.com/software/" style="color:yellow">Raspeberry Pi Os Imager</a>.<br><br>
+        <a href="https://indomus.it/guide/come-installare-e-configurare-raspberry-pi/"  style="color:yellow">Guida installazione</a>.<br>
+        Importante: installare Raspberry Pi OS senza desktop<br><br>
+
+        - primo avvio di raspberry os<br>
+        Una volta installato il sistema su microSD, al primo avvio dovrebbe chiedere di creare 
+        utente e password<br><br>
+
+        - connessione wifi<br>
+        riavviare il Network Manager<br> 
+        <b>sudo systemctl restart network-manager</b><br>
+        con il comando ntmui entriamo nel menù scegliamo la rete wifi e inseriamo la password<br>
+        <b>ntmui</b><br> <br>
+        
+        - installazione csound<br>
+        <b>sudo apt-get install csound</b><br><br>
+
+        - installazione tmux<br>
+        <b>sudo apt-get install tmux</b><br><br>
+
+        - installazione mc<br>
+        <b>sudo apt-get install mc</b><br><br>
+
+        - installazione vim<br>
+        <b>sudo apt-get install vim</b><br><br>
+
+        - annullare auteticazione login e password<br><br>
+        sudo visudo<br>
+        cerca la riga<br> 
+        %admin ALL=(ALL) ALL<br>
+        aggiungi nopasswd, facendola diventare così:<br>
+        %admin ALL=(ALL) NOPASSWD: ALL<br><br>
+
+        - copiare il codice csound sulla home della microSD<br><br>
+
+        - connettere arduino a raspberry Pi tramite usb<br><br>
+    
+        - testare la porta arduino<br>
+        <b>ls /dev/tty*</b><br><br>
+
+        - aprire il file csound e cambiare la porta se necessario<br>
+        solitmente su linux la porta sarà la seguente<br>
+        iPort serialBegin "/dev/ttyACM0", 9600<br><br>
+        
+        - autostart codice csound all'avvio<br>
+        modificare .bashrc<br>
+        <b>vim .bashrc</b><br> 
+        aggiungere le seguenti righe<br>
+        <b>echo Running at boot<br>
+        csound NOME.csd
+        </b>
+
+        <hr>
+        <b>CODICI GRANDE EUGENIO</b><br><br>
+        <a href="ARDUINO_CSOUND_GRANDE_EUGENIO/GRANDE_EUGENIO_1/GRANDE_EUGENIO_1.ino" style="color:yellow">CODICE ARUDINO GRANDE EUGENIO</a>.<br><br>
+        
+        <a href="ARDUINO_CSOUND_GRANDE_EUGENIO/Great_Eugenio2.csd" style="color:yellow">CODICE CSOUND GRANDE EUGENIO per Raspberry Pi OS</a>.<br><br>
+        
+        <a href="GRANDE_EUGENIO_CABBAGE/GrandeEugenioAppGUI.csd" style="color:yellow">CODICE GRANDE EUGENIO in CABBAGE AUDIO</a>.<br>
+        <img src="GrandeUgenioGUI.png" alt="" width="50%" height="50%" align="middle"><br><br><br><br>
+
+        <hr>    
+        <h1>ESEMPIO EURORACK (ARDUINO-CSOUND)</h1> 
+        <a href="https://www.csounds.com/journal/issue18/eurorack.html" style="color:yellow">CSOUND JOURNAL</a><br>
+        <b>Csound Eurorack Module</b><br>
+        Building an FM oscillator in the Eurorack format using Csound, a Raspberry Pi, and an Arduino Uno<br>
+        Andrew Ikenberry and Jason Lim<br>
+        aikenberry AT berklee.edu<br>
+        jhjl AT me.com<br>
+        
+        <br><br><br><br>
+    </main>
+    <footer>
+        <p>&copy; 2024 Grande Eugenio</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

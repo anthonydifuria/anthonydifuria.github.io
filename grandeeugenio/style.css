@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;  
+    font-family: "Courier New", Courier;
+    background-color: #191818; /* Nero */
+    color: #cf9e43; /* Arancione */
+}
+
+header {
+    background-color: #121212; /* Nero */
+    padding: 20px;
+    text-align: center; /* Centra il testo all'interno dell'header */
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #cf9e43; /* Arancione */
+}
+
+hr {
+    color: #cf9e43;
+    background: #cf9e43;
+    border: 0;
+    height: 1px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center; /* Centra il menu */
+}
+
+nav ul li {
+    display: inline; /* Per renderli in linea */
+}
+
+nav ul li a {
+    display: inline-block; /* Per consentire la regolazione del margine */
+    color: #ffc04b; /* Arancione */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: 2px solid #ffc04b; /* Arancione */
+    transition: color 0.3s; /* Transizione del colore del testo */
+    margin: 0 10px; /* Spazio tra le voci di menu */
+}
+
+nav ul li a:hover {
+    background-color: #ffc04b; /* Arancione */
+    color: #121212; /* Nero */
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #121212; /* Nero */
+    color: #ffc04b; /* Arancione */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.copy-button {
+    padding: 6px 20px;
+    background-color: #ffc04b; /* Arancione */
+    color: #121212; /* Nero */
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.copy-button:hover {
+    background-color: #ffc04b; /* Giallo */
+}
+
+.copy-button:focus {
+    outline: none;
+}
