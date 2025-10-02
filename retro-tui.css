@@ -1,0 +1,249 @@
+/* Retro TUI — mobile-first */
+
+/* subito nel tuo retro-tui.css */
+[data-include]{
+  display:block;
+  min-height:56px; /* mobile: coincide con var(--menubarH) */
+}
+@media (min-width: 961px){
+  [data-include]{ min-height:44px; } /* desktop: la tua menubar è 44px */
+  
+}
+
+
+:root{
+  --bg:#101010; --fg:#d5d5d5; --muted:#af5802; --link:#af5802; --link-inv:#000;
+  --accent:#ffaa00; --border:#4a4a4a; --mono:"Courier New", Courier, monospace;
+  --menubarH:56px; --menubg:#000000; --panelbg:#101010;
+}
+
+/* Reset */
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0; background:var(--bg); color:var(--fg); font-family:var(--mono);
+  font-size:clamp(17px,4vw,19px); line-height:1.4; -webkit-text-size-adjust:100%;
+}
+a{color:inherit; text-decoration:none}
+:focus-visible{outline:1px dashed var(--accent); outline-offset:2px}
+:target{scroll-margin-top:calc(var(--menubarH) + 8px)}
+
+/* App grid */
+.app{padding-top: var(--menubarH);}
+
+/* ===== Menubar ===== */
+.menubar{
+  position: fixed;      /* invece di sticky */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background:var(--menubg);
+  border-bottom:1px solid var(--border); min-height:var(--menubarH)
+}
+.menubar .inner{
+  max-width:850px; margin:0 auto; padding:6px 8px;
+  display:flex; align-items:center; gap:1ch
+}
+.brand{color:var(--muted); white-space:nowrap; flex-shrink:0}
+
+/* --- HAMBURGER: pannello con le voci del menu principale --- */
+.mobile-menu{
+  display:none; position:fixed; left:0; right:0; top:var(--menubarH); bottom:0;
+  background:var(--panelbg); border-top:1px solid var(--border);
+  z-index:130; overflow:auto; padding:12px 10px;
+}
+.mobile-menu h3{
+  margin:6px 0 8px; font-weight:400; color:var(--muted);
+}
+.mobile-list{list-style:none; margin:0 0 12px 0; padding:0}
+.mobile-list li{margin:10px 0}
+.mobile-item{display:inline-block; outline:none}
+.mobile-item::before{content:"[ " attr(data-label) " ]"; color:var(--link)}
+.mobile-item:hover::before,.mobile-item:focus-visible::before{
+  background:var(--link); color:var(--link-inv)
+}
+/* palette dentro al drawer */
+.mobile-palette label.mobile-item{cursor:pointer}
+
+/* mostra il drawer quando il toggle è attivo */
+#nav-toggle:checked ~ .app .mobile-menu{display:block}
+/* overlay già presente: facciamolo coprire tutto sotto */
+.nav-overlay{display:none; position:fixed; inset:0; top:var(--menubarH);
+  background:rgba(0,0,0,.6); z-index:120}
+#nav-toggle:checked ~ .app .nav-overlay{display:block}
+
+/* su mobile il menu orizzontale è nascosto (rimangono hamburger + brand) */
+.menu{display:none}
+
+/* desktop: drawer disattivato e menu orizzontale visibile */
+@media (min-width: 961px){
+  
+  .menu{display:flex; gap:2ch; align-items:center; flex:1 1 auto}
+  .mobile-menu{display:none !important}
+  .nav-overlay{display:none !important}
+  
+}
+
+
+/* ===== Menu in alto ===== */
+.menu{display:none} /* MOBILE: mostra solo brand + hamburger */
+.menu .ddgrp{position:relative; display:inline-block}
+.menu .head{
+  display:inline-block; padding:8px 10px; color:var(--fg);
+}
+.menu .head.static{cursor:default}
+.menu .head:hover,.menu .head:focus-visible{
+  background:var(--link); color:var(--link-inv)
+}
+/* Dropdown SOLO per PALETTE */
+.menu .dropdown{
+  position:absolute; top:100%; left:0; min-width:13ch;
+  border:1px solid var(--border); background:var(--panelbg);
+  padding:10px; z-index:90; display:none
+}
+.menu .dropdown ul{list-style:none; margin:0; padding:0}
+.menu .dropdown li{margin:10px 0}
+.menu .menuitem{display:inline-block}
+.menu .menuitem::before{content:"[" attr(data-label) "]"; color:var(--link)}
+.menu .menuitem:hover::before,.menu .menuitem:focus-visible::before{
+  background:var(--link); color:var(--link-inv)
+}
+
+/* --- Palette toggle + click fuori --- */
+
+/* Apri/chiudi dropdown Palette con checkbox */
+#menu-palette:checked ~ .app .menu .ddgrp[data-menu="palette"] .dropdown{display:block}
+
+/* Overlay che copre tutta la pagina quando la palette è aperta */
+.palette-overlay{
+  display:none; position:fixed; left:0; right:0; top:var(--menubarH); bottom:0;
+  background:transparent; z-index:200; cursor:pointer;
+}
+/* Mostra overlay solo quando la palette è aperta */
+#menu-palette:checked ~ .app .palette-overlay{display:block}
+
+/* Dropdown sopra all’overlay */
+.menu .dropdown{z-index:210}
+
+/* === Pane immagine con cornice === */
+.image-pane{
+  padding:0;                 /* niente padding: l’immagine tocca la cornice */
+  background:var(--panelbg); /* uguale alle altre pane */
+}
+.image-pane img{
+  /* display:block; */
+  width:100%;
+  height:auto;               /* niente crop, niente spazi */
+  image-rendering:auto; 
+}
+/* l’immagine (pane) deve span-nare entrambe le colonne */
+.image-pane{ grid-column: 1 / -1; }
+
+/* opzionale: caption sobria e senza creare “gradini” */
+.img-caption{
+  margin:0; padding:4px 8px;
+  font-size:.9rem; color:var(--muted);
+  border-top:1px solid var(--border);
+}
+
+/* avvicina un filo le pane fra loro (se vuoi ancora più vicino, metti 0) */
+main{ gap:.6ch; }
+
+
+/* ===== Main ===== */
+main{
+  max-width:1100px; margin:0 auto; width:100%;
+  display:grid; grid-template-columns:1fr; gap:1ch; padding:10px 8px; position:relative
+}
+.pane{position:relative; padding:8px; background:var(--panelbg); border:1px solid var(--border)}
+.pane::before{content:attr(data-title); position:absolute; top:-10px; left:8px; padding:0 4px; background:var(--bg); color:var(--muted)}
+.block header{color:var(--muted)}
+.rule{height:1px; background:var(--border); margin:6px 0}
+
+/* ===== Indice sinistro (off-canvas) ===== */
+aside.pane{
+  position:fixed; left:0; top:var(--menubarH); bottom:0; width:min(90vw,320px);
+  transform:translateX(-100%); transition:transform .2s ease-out;
+  z-index:120; overflow:auto
+}
+.tui-list{list-style:none; margin:0; padding:0}
+.tui-list li{margin:6px 0}
+.tui-link{position:relative; display:inline-block; outline:none; padding:4px 2px}
+.tui-link::before{content:"[" attr(data-label) "]"; color:var(--link)}
+.tui-link:hover::before,.tui-link:focus-visible::before{background:var(--link); color:var(--link-inv)}
+
+/* testo della lista un po' più piccolo */
+.tui-list {
+  font-size: 0.8rem;   /* o 90%, se preferisci */
+  line-height: 1.35;
+}
+
+/* mantieni <strong> senza ingrandimento extra */
+.tui-list li strong {
+  font-size: 1em;      /* evita che <strong> aumenti il font */
+  font-weight: 600;
+}
+
+/* dettagli (em e link) ancora leggermente più piccoli */
+.tui-list li em,
+.tui-list li .tui-link {
+  font-size: 0.8em;
+}
+
+/* spaziatura più compatta del punto elenco */
+.tui-list li {
+  margin: 0.25em 0;
+}
+
+.nav-overlay{
+  display:none; position:fixed; inset:0; top:var(--menubarH);
+  background:rgba(0,0,0,.6); z-index:110
+}
+/* toggle apertura indice */
+#nav-toggle:checked ~ .app main aside.pane{transform:translateX(0)}
+#nav-toggle:checked ~ .app .nav-overlay{display:block}
+
+/* ===== Status bar ===== */
+.status{
+  position:fixed; left:0; right:0; bottom:0; z-index:150;
+  display:flex; justify-content:space-between; gap:2ch;
+  min-height:var(--footerH); align-items:center;
+  border-top:1px solid var(--border); padding:6px 8px;
+  background:var(--menubg); color:var(--muted)
+}
+.status .cursor{color:var(--accent); animation:blink 1s steps(1,end) infinite}
+@keyframes blink{50%{opacity:.2}}
+
+/* ===== Desktop (≥961px): mostra il menu orizzontale e sidebar fissa) ===== */
+@media (min-width: 961px){
+  :root{--menubarH:44px
+  /* ...le tue variabili... */
+  --footerH: 40px; /* altezza status bar fissa */}
+  .burger{display:none}
+  .menu{display:flex; gap:2ch; align-items:center; flex:1 1 auto}
+  aside.pane{position:relative; transform:none; top:auto; bottom:auto; width:auto; z-index:auto; overflow:visible}
+  .nav-overlay{display:none!important}
+  main{grid-template-columns:26ch 1fr; gap:2ch; padding:12px 8px}
+    .image-pane{
+    margin-top: 55px; /* prova 2–4px finché non scompare la sovrapposizione */
+  }
+}
+
+/* ===== Palette accessibili ===== */
+body:has(#pal-contrast-dark:checked){--bg:#000;--fg:#fff;--muted:#e3e3e3;--link:#00ffff;--link-inv:#000;--accent:#ffff00;--border:#6a6a6a;--menubg:#000;--panelbg:#000}
+body:has(#pal-contrast-light:checked){--bg:#fff;--fg:#000;--muted:#222;--link:#0033ff;--link-inv:#fff;--accent:#cc0000;--border:#000;--menubg:#f2f2f2;--panelbg:#fff}
+body:has(#pal-sepia:checked){--bg:#f4ecd8;--fg:#2a2a2a;--muted:#555;--link:#0645ad;--link-inv:#fff;--accent:#9b6b00;--border:#a48f6a;--menubg:#e9dfc7;--panelbg:#fffaf0}
+body:has(#pal-crt:checked){--bg:#020402;--fg:#a8ffb0;--muted:#6edb8a;--link:#00ff7f;--link-inv:#003318;--accent:#00ff9a;--border:#2a7a4f;--menubg:#031e10;--panelbg:#031e10}
+body:has(#pal-by:checked){--bg:#0a0f1a;--fg:#f5f7fa;--muted:#d5dbe3;--link:#ffd300;--link-inv:#1b1f2a;--accent:#7aa6ff;--border:#2a3550;--menubg:#0d1220;--panelbg:#0f1426}
+
+
+/* Di base: contenuto a tutta larghezza */
+.content { grid-column: 1 / -1; }
+
+/* Se l'aside è presente (solo desktop), sposta il contenuto nella colonna destra */
+@media (min-width: 961px){
+  main:has(> aside.pane) .content { grid-column: 2; }
+}
+
+

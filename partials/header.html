@@ -1,0 +1,95 @@
+<!-- partials/header.html -->
+
+<!-- Palette (devono stare prima di .app) -->
+<input type="radio" name="palette" id="pal-default" hidden checked>
+<input type="radio" name="palette" id="pal-contrast-dark" hidden>
+<input type="radio" name="palette" id="pal-contrast-light" hidden>
+<input type="radio" name="palette" id="pal-sepia" hidden>
+<input type="radio" name="palette" id="pal-crt" hidden>
+<input type="radio" name="palette" id="pal-by" hidden>
+
+<!-- Menu: radio “none” + checkbox palette (toggle) -->
+<input type="radio" name="menu" id="menu-none" hidden checked>
+<input type="checkbox" id="menu-palette" hidden>
+
+<!-- Toggle hamburger -->
+<input type="checkbox" id="nav-toggle" hidden>
+
+<div class="app">
+  <!-- MENUBAR -->
+  <div class="menubar">
+    <div class="inner">
+      <span class="burger">
+        <label class="btn" for="nav-toggle" title="Apri/chiudi indice">
+          <span class="icon"><span></span></span> [-]
+        </label>
+      </span>
+
+      <a class="brand" href="index.html" title="anthony di furia">anthony di furia</a>
+
+      <!-- Menu in alto: voci statiche + dropdown SOLO per Palette -->
+      <nav class="menu" aria-label="Menu">
+        <span class="ddgrp" data-menu="file">
+          <a class="head" href="index.html" aria-current="page"><span class="u"><u>H</u></span>ome</a>
+        </span>
+        <span class="ddgrp" data-menu="edit">
+          <a class="head" href="bio.html"><span class="u"><u>B</u></span>io</a>
+        </span>
+        <span class="ddgrp" data-menu="view">
+          <a class="head" href="works.html"><span class="u"><u>W</u></span>orks</a>
+        </span>
+        <span class="ddgrp" data-menu="go">
+          <a class="head" href="soft.html"><span class="u"><u>S</u></span>oftware</a>
+        </span>
+        <span class="ddgrp" data-menu="help">
+          <a class="head" href="contact.html"><span class="u"><u>C</u></span>ontacts</a>
+        </span>
+
+        <!-- Dropdown PALETTE -->
+        <span class="ddgrp right" data-menu="palette">
+          <label class="head" for="menu-palette" title="Cambia palette (accessibilità)">Palette</label>
+          <div class="dropdown" role="menu">
+            <ul>
+              <li><label class="menuitem" for="pal-default"        style="font-size: 12px;" data-label="default"></label></li>
+              <li><label class="menuitem" for="pal-contrast-dark"  style="font-size: 12px;" data-label="contrast-dark"></label></li>
+              <li><label class="menuitem" for="pal-contrast-light" style="font-size: 12px;" data-label="contrast-light"></label></li>
+              <li><label class="menuitem" for="pal-sepia"          style="font-size: 12px;" data-label="sepia"></label></li>
+              <li><label class="menuitem" for="pal-crt"            style="font-size: 12px;" data-label="crt"></label></li>
+              <li><label class="menuitem" for="pal-by"             style="font-size: 12px;" data-label="by"></label></li>
+            </ul>
+          </div>
+        </span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Overlay per chiudere PALETTE -->
+  <label for="menu-palette" class="palette-overlay" aria-hidden="true" title="Chiudi palette"></label>
+
+  <!-- DRAWER MOBILE -->
+  <aside class="mobile-menu" aria-label="Menu principale mobile">
+    <h3></h3>
+    <ul class="mobile-list">
+      <li><a class="mobile-item" href="index.html"   data-label="Home"></a></li>
+      <li><a class="mobile-item" href="bio.html"     data-label="Bio"></a></li>
+      <li><a class="mobile-item" href="works.html"   data-label="Works"></a></li>
+      <li><a class="mobile-item" href="soft.html"    data-label="Software"></a></li>
+      <li><a class="mobile-item" href="contact.html" data-label="Contacts"></a></li>
+    </ul>
+    <div class="rule"></div>
+    <h3>Palette</h3>
+    <ul class="mobile-list">
+      <li><label class="mobile-item mobile-palette" for="pal-default"        style="font-size: 10px;" data-label="default"></label></li>
+      <li><label class="mobile-item mobile-palette" for="pal-contrast-dark"  style="font-size: 10px;" data-label="contrast-dark"></label></li>
+      <li><label class="mobile-item mobile-palette" for="pal-contrast-light" style="font-size: 10px;" data-label="contrast-light"></label></li>
+      <li><label class="mobile-item mobile-palette" for="pal-sepia"          style="font-size: 10px;" data-label="sepia"></label></li>
+      <li><label class="mobile-item mobile-palette" for="pal-crt"            style="font-size: 10px;" data-label="crt"></label></li>
+      <li><label class="mobile-item mobile-palette" for="pal-by"             style="font-size: 10px;" data-label="by"></label></li>
+    </ul>
+    <br>
+    <div class="rule"></div>
+  </aside>
+
+  <!-- Overlay off-canvas -->
+  <label class="nav-overlay" for="nav-toggle" aria-hidden="true"></label>
+  <!-- .app resta APERTA; la chiuderai nella pagina -->
