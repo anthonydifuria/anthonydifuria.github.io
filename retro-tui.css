@@ -12,8 +12,8 @@
 
 
 :root{
-  --bg:#101010; --fg:#d5d5d5; --muted:#af5802; --link:#af5802; --link-inv:#000;
-  --accent:#ffaa00; --border:#4a4a4a; --mono:"Courier New", Courier, monospace;
+  --bg:#101010; --fg:#d5d5d5; --muted:#ffa500; --link:#ffa500; --link-inv:#000;
+  --accent:#ffa500; --border:#4a4a4a; --mono:"Courier New", Courier, monospace;
   --menubarH:56px; --menubg:#000000; --panelbg:#101010;
 }
 
