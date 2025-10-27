@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Orari_AnthonyDiFuria_2025_2026</title>
+  <style>
+    :root{
+      --bg:#0b0c10; --card:#111317; --muted:#9aa1a9; --fg:#e9eef5; --accent:#7cc2ff;
+      --border:#22252c; --chip:#1a1f27; --chip-b:#2a313b;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#0b0c10,#0e1116 25%,#0b0c10);color:var(--fg);font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;}
+    header{position:sticky;top:0;background:rgba(11,12,16,.8);backdrop-filter:saturate(1.2) blur(10px);border-bottom:1px solid var(--border);z-index:20}
+    .wrap{max-width:1100px;margin:auto;padding:16px}
+    h1{font-size:clamp(24px,2.8vw,34px);margin:4px 0 2px}
+    .subtitle{color:var(--muted);font-size:14px}
+
+    .tools{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+    button, .btn{
+      appearance:none;border:1px solid var(--border);background:var(--chip);
+      color:var(--fg);padding:8px 12px;border-radius:12px;cursor:pointer;
+      transition:.15s transform,.15s background,.15s border-color; font-weight:600;
+    }
+    button:hover,.btn:hover{background:var(--chip-b);transform:translateY(-1px)}
+
+    .grid{display:grid;grid-template-columns:1fr;gap:18px;margin-top:18px}
+    @media(min-width:880px){.grid{grid-template-columns:repeat(2,1fr)}}
+
+    .course{background:var(--card);border:1px solid var(--border);border-radius:16px;overflow:hidden}
+    .course header{position:unset;background:transparent;border:none;backdrop-filter:none}
+    .course-title{display:flex;justify-content:space-between;align-items:center;padding:14px 16px;border-bottom:1px dashed var(--border)}
+    .course-title h2{margin:0;font-size:clamp(18px,2.2vw,22px)}
+    .badge{font-size:12px;color:var(--fg);background:var(--chip);border:1px solid var(--border);padding:4px 8px;border-radius:999px}
+
+    /* Lista verticale (timeline compatta) */
+    .list{list-style:none;margin:0;padding:10px 14px;display:flex;flex-direction:column;gap:10px}
+    .item{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center;padding:10px 12px;border:1px solid var(--border);border-radius:12px;background:linear-gradient(180deg,rgba(124,194,255,.06),transparent)}
+    .date{font-variant-numeric:tabular-nums;font-weight:700;letter-spacing:.2px}
+    .code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;background:var(--chip);border:1px solid var(--border);padding:2px 8px;border-radius:10px;font-size:12px}
+    .time{font-variant-numeric:tabular-nums;color:var(--accent);font-weight:700}
+
+    /* Titoloni di sezione (separano blocchi) */
+    .section-hero{
+      grid-column: 1 / -1; /* occupa tutta la riga della grid */
+      display:flex;align-items:center;gap:12px;
+      padding:18px 20px;margin-top:8px;
+      background:linear-gradient(180deg,rgba(124,194,255,.10),rgba(124,194,255,.03));
+      border:1px solid var(--border);border-radius:18px;
+      box-shadow:0 6px 18px rgba(0,0,0,.25) inset;
+    }
+    .section-hero .dot{width:10px;height:10px;border-radius:999px;background:var(--accent);box-shadow:0 0 16px var(--accent)}
+    .section-hero h2{margin:0;font-size:clamp(22px,3vw,28px);letter-spacing:.4px}
+
+    footer{max-width:1100px;margin:30px auto;padding:20px;color:var(--muted)}
+  
+
+    /* --- Mobile tuning --- */
+    @media (max-width: 640px){
+      header{ position: static; } /* su mobile non resta incollato */
+      .wrap{ padding:12px; }
+      h1{ font-size:20px; line-height:1.2; }
+      .subtitle{ display:none; }
+      .tools{ gap:6px }
+      button,.btn{ padding:6px 8px; border-radius:10px; font-size:13px }
+      .grid{ gap:12px }
+      .course-title{ padding:12px 14px }
+      .list{ padding:8px 10px }
+      .item{ padding:8px 10px }
+    }
+
+    /* versione compatta quando si scorre (anche su desktop) */
+    header.compact .wrap{ padding:8px 12px }
+    header.compact h1{ font-size:18px }
+    header.compact .subtitle{ display:none }
+    header.compact .tools{ display:none }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>Calendiario Generale - Anthony Di Furia - Conservatorio N. Piccinni Bari - a.a 2025/2026</h1>
+      <div class="subtitle"></div>
+      <div class="tools">
+        <button id="printBtn" title="Stampa o salva in PDF">🖨️ Stampa/Salva PDF</button>
+        <button id="expandBtn" title="Espandi/Comprimi tutti">↕️ Espandi/Comprimi</button>
+      </div>
+   </div>
+  </header>
+
+  <main class="wrap">
+    <section class="grid" id="courses"></section>
+  </main>
+
+  <footer></footer>
+
+  <script>
+  // ---- DATI (Opzione A: con campo "sezione") -----------------------------
+  const CORSI = [
+    // TRIENNIO
+    {
+      titolo: "Campionamento, sintesi ed elaborazione digitale dei suoni 1 - Triennio ME/TDS",
+      sezione: "Triennio Musica Elettronica/Tecnico del Suono",
+      incontri: [
+        ["05-nov-2025","CAMP1","10_12"], ["12-nov-2025","CAMP1","10_12"], ["19-nov-2025","CAMP1","10_12"], ["26-nov-2025","CAMP1","10_12"],
+        ["03-dic-2025","CAMP1","10_12"], ["10-dic-2025","CAMP1","10_12"], ["17-dic-2025","CAMP1","10_12"], ["14-gen-2026","CAMP1","10_12"],
+        ["21-gen-2026","CAMP1","10_12"], ["28-gen-2026","CAMP1","10_12"], ["04-feb-2026","CAMP1","09_12"], ["11-feb-2026","CAMP1","10_12"],
+      ]
+    },
+    {
+      titolo: "Campionamento, sintesi ed elaborazione digitale dei suoni 2 - Triennio ME/TDS",
+      sezione: "Triennio Musica Elettronica/Tecnico del Suono",
+      incontri: [
+        ["05-nov-2025","CAMP2","12_14"], ["12-nov-2025","CAMP2","12_14"], ["19-nov-2025","CAMP2","12_14"], ["26-nov-2025","CAMP2","12_14"],
+        ["03-dic-2025","CAMP2","12_14"], ["10-dic-2025","CAMP2","12_14"], ["17-dic-2025","CAMP2","12_14"], ["14-gen-2026","CAMP2","12_14"],
+        ["21-gen-2026","CAMP2","12_14"], ["28-gen-2026","CAMP2","12_14"], ["04-feb-2026","CAMP2","12_15"], ["11-feb-2026","CAMP2","12_14"],
+      ]
+    },
+    {
+      titolo: "Campionamento, sintesi ed elaborazione digitale dei suoni 3 - Triennio ME/TDS",
+      sezione: "Triennio Musica Elettronica/Tecnico del Suono",
+      incontri: [
+        ["04-nov-2025","CAMP3","17_19"], ["11-nov-2025","CAMP3","17_19"], ["18-nov-2025","CAMP3","17_19"], ["25-nov-2025","CAMP3","17_19"],
+        ["02-dic-2025","CAMP3","17_19"], ["09-dic-2025","CAMP3","17_19"], ["16-dic-2025","CAMP3","17_19"], ["13-gen-2026","CAMP3","17_19"],
+        ["20-gen-2026","CAMP3","17_19"], ["27-gen-2026","CAMP3","17_19"], ["03-feb-2026","CAMP3","17_20"], ["10-feb-2026","CAMP3","17_19"],
+      ]
+    },
+
+    {
+      titolo: "Informatica Musicale 1 Biennio ME",
+      sezione: "Biennio Musica Elettronica",
+      incontri: [
+        ["04-nov-2025","INF_BI1","10_13"], ["11-nov-2025","INF_BI1","10_13"], ["18-nov-2025","INF_BI1","10_13"], ["25-nov-2025","INF_BI1","10_13"],
+        ["02-dic-2025","INF_BI1","10_13"], ["09-dic-2025","INF_BI1","10_13"], ["16-dic-2025","INF_BI1","10_13"], ["13-gen-2026","INF_BI1","10_13"],
+        ["20-gen-2026","INF_BI1","10_13"], ["27-gen-2026","INF_BI1","10_13"], ["03-feb-2026","INF_BI1","10_13"], ["10-feb-2026","INF_BI1","10_12"],
+        ["26-mag-2026","INF_BI1","14_17"], ["27-mag-2026","INF_BI1","10_12"],
+      ]
+    },
+    {
+      titolo: "Informatica Musicale 2 Biennio ME",
+      sezione: "Biennio Musica Elettronica",
+      incontri: [
+        ["04-nov-2025","INF_BI2","14_17"], ["11-nov-2025","INF_BI2","14_17"], ["18-nov-2025","INF_BI2","14_17"], ["25-nov-2025","INF_BI2","14_17"],
+        ["02-dic-2025","INF_BI2","14_17"], ["09-dic-2025","INF_BI2","14_17"], ["16-dic-2025","INF_BI2","14_17"], ["13-gen-2026","INF_BI2","14_17"],
+        ["20-gen-2026","INF_BI2","14_17"], ["27-gen-2026","INF_BI2","14_17"], ["03-feb-2026","INF_BI2","14_16"], ["10-feb-2026","INF_BI2","14_16"],
+        ["26-mag-2026","INF_BI2","17_20"], ["27-mag-2026","INF_BI2","12_14"],
+      ]
+    },
+
+
+    {
+      titolo: "Infomatica Musicale gruppo 1 Triennio",
+      sezione: "Triennio Corsi Trasversali",
+      incontri: [
+        ["17-feb-2026","INF_TR_gr1","17_20"], ["03-mar-2026","INF_TR_gr1","17_20"], ["10-mar-2026","INF_TR_gr1","17_20"], ["17-mar-2026","INF_TR_gr1","17_20"],
+        ["24-mar-2026","INF_TR_gr1","17_20"], ["31-mar-2026","INF_TR_gr1","17_20"], ["14-apr-2026","INF_TR_gr1","17_20"], ["21-apr-2026","INF_TR_gr1","17_20"],
+        ["28-apr-2026","INF_TR_gr1","17_20"], ["05-mag-2026","INF_TR_gr1","17_20"], ["12-mag-2026","INF_TR_gr1","17_20"], ["19-mag-2026","INF_TR_gr1","17_20"],
+      ]
+    },
+    {
+      titolo: "Informatica Musicale gruppo 2 Triennio",
+      sezione: "Triennio Corsi Trasversali",
+      incontri: [
+        ["18-feb-2026","INF_TR_gr2","09_12"], ["04-mar-2026","INF_TR_gr2","09_12"], ["11-mar-2026","INF_TR_gr2","09_12"], ["18-mar-2026","INF_TR_gr2","09_12"],
+        ["25-mar-2026","INF_TR_gr2","09_12"], ["01-apr-2026","INF_TR_gr2","09_12"], ["15-apr-2026","INF_TR_gr2","09_12"], ["22-apr-2026","INF_TR_gr2","09_12"],
+        ["29-apr-2026","INF_TR_gr2","09_12"], ["06-mag-2026","INF_TR_gr2","09_12"], ["13-mag-2026","INF_TR_gr2","09_12"], ["20-mag-2026","INF_TR_gr2","09_12"],
+      ]
+    },
+
+    {
+      titolo: "Campionamento, sintesi ed elaborazione digitale dei suoni  - corso a scelta Triennio",
+      sezione: "Triennio Corsi Trasversali",
+      incontri: [
+        ["18-feb-2026","CAMP_TRASV","13_16"], ["04-mar-2026","CAMP_TRASV","13_16"], ["11-mar-2026","CAMP_TRASV","13_16"], ["18-mar-2026","CAMP_TRASV","13_16"],
+        ["25-mar-2026","CAMP_TRASV","13_16"], ["01-apr-2026","CAMP_TRASV","13_16"], ["15-apr-2026","CAMP_TRASV","13_16"], ["22-apr-2026","CAMP_TRASV","13_16"],
+        ["29-apr-2026","CAMP_TRASV","13_16"], ["06-mag-2026","CAMP_TRASV","13_16"], ["13-mag-2026","CAMP_TRASV","13_16"], ["20-mag-2026","CAMP_TRASV","13_16"],
+      ]
+    },
+
+    {
+      titolo: "Videoscrittura Triennio – corso a scelta",
+      sezione: "Triennio Corsi Trasversali",
+      incontri: [
+        ["17-feb-2026","VID_TR","14_17"], ["03-mar-2026","VID_TR","14_17"], ["10-mar-2026","VID_TR","14_17"], ["17-mar-2026","VID_TR","14_17"],
+        ["24-mar-2026","VID_TR","14_17"], ["31-mar-2026","VID_TR","14_17"], ["14-apr-2026","VID_TR","14_17"], ["21-apr-2026","VID_TR","14_17"],
+        ["28-apr-2026","VID_TR","14_17"], ["05-mag-2026","VID_TR","14_17"], ["12-mag-2026","VID_TR","14_17"], ["19-mag-2026","VID_TR","14_17"],
+      ]
+    },
+
+    {
+      titolo: "Videoscrittura Biennio – corso trasversale",
+      sezione: "Biennio Corsi Trasversali",
+      incontri: [
+        ["17-feb-2026","VID_BI","11_13"], ["03-mar-2026","VID_BI","11_13"], ["10-mar-2026","VID_BI","11_13"], ["17-mar-2026","VID_BI","11_13"],
+        ["24-mar-2026","VID_BI","11_13"], ["31-mar-2026","VID_BI","11_13"], ["14-apr-2026","VID_BI","11_13"], ["21-apr-2026","VID_BI","11_13"],
+        ["28-apr-2026","VID_BI","11_13"], ["05-mag-2026","VID_BI","11_13"], ["12-mag-2026","VID_BI","11_13"], ["19-mag-2026","VID_BI","10_13"],
+      ]
+    }
+
+  ];
+
+  // ---- RENDER -------------------------------------------------------------
+  const $courses = document.getElementById('courses');
+
+  function timePretty(t){
+    const [h1,h2] = t.split('_');
+    const pad = s => String(s).padStart(2,'0');
+    return `${pad(h1)}:00–${pad(h2)}:00`;
+  }
+
+  function render(){
+    $courses.innerHTML = '';
+
+    // 1) Raggruppa per sezione
+    const bySezione = CORSI.reduce((acc, c) => {
+      const key = c.sezione || 'Senza sezione';
+      (acc[key] ||= []).push(c);
+      return acc;
+    }, {});
+
+    // 2) Ordina le sezioni come preferisci
+    const ordineSezioni = ['Triennio','Biennio','Trasversale','Senza sezione'];
+    const sezioni = Object.keys(bySezione).sort((a,b) => ordineSezioni.indexOf(a) - ordineSezioni.indexOf(b));
+
+    // 3) Stampa sezione + corsi
+    sezioni.forEach(sez => {
+      const hero = document.createElement('div');
+      hero.className = 'section-hero';
+      hero.innerHTML = `<span class="dot"></span><h2>${sez}</h2>`;
+      $courses.appendChild(hero);
+
+      bySezione[sez].forEach((corso, idx) => {
+        const card = document.createElement('article');
+        card.className = 'course';
+        card.innerHTML = `
+          <div class="course-title">
+            <h2>${corso.titolo}</h2>
+            <span class="badge">${corso.incontri.length} incontri</span>
+          </div>
+          <ol class="list" id="list-${sez}-${idx}"></ol>
+        `;
+
+        const list = card.querySelector('ol');
+        corso.incontri.forEach(([data, codice, ora]) => {
+          const li = document.createElement('li');
+          li.className = 'item';
+          li.innerHTML = `
+            <span class="date">${data}</span>
+            <span class="code">${codice}</span>
+            <span class="time">${timePretty(ora)}</span>
+          `;
+          list.appendChild(li);
+        });
+
+        $courses.appendChild(card);
+      });
+    });
+  }
+
+  render();
+
+  // ---- TOOLS --------------------------------------------------------------
+  document.getElementById('printBtn').addEventListener('click', () => window.print());
+
+  let expanded = true;
+  document.getElementById('expandBtn').addEventListener('click', () => {
+    expanded = !expanded;
+    document.querySelectorAll('.item').forEach(it => {
+      it.style.gridTemplateColumns = expanded ? 'auto 1fr auto' : '1fr';
+      it.querySelectorAll('.code,.time,.date').forEach(el => { el.style.display = expanded ? '' : 'block'; });
+      if(!expanded){
+        it.innerHTML = `<div><strong>${it.querySelector('.date')?.textContent || ''}</strong> – ${it.querySelector('.code')?.textContent || ''} – ${it.querySelector('.time')?.textContent || ''}</div>`
+      } else {
+        render();
+      }
+    });
+  });
+    // Header compatto allo scroll
+  (function(){
+    const hdr = document.querySelector('header');
+    let ticking = false;
+    window.addEventListener('scroll', () => {
+      if(!ticking){
+        window.requestAnimationFrame(() => {
+          const y = window.scrollY || document.documentElement.scrollTop;
+          if(y > 40) hdr.classList.add('compact'); else hdr.classList.remove('compact');
+          ticking = false;
+        });
+        ticking = true;
+      }
+    });
+  })();
+  </script>
+</body>
+</html>
