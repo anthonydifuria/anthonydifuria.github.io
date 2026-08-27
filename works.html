@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>adf - works</title>
+  <link rel="stylesheet" href="retro-tui.css">
+  <script type="module" src="js/include-partials.js"></script>
+  <script src="js/palette.js" defer></script>
+</head>
+
+<body>
+  <div data-include="partials/header.html" style="display:block;min-height:56px"></div>
+
+  <!-- MAIN -->
+  <main>
+    <!-- IMG -->
+    <section class="pane image-pane" data-title="">
+      <img src="img/logo2.png" alt="" height="auto" width="100%">
+    </section>
+
+    <!-- === PUBLICATIONS / RESEARCH ======================================= -->
+    <section class="pane content" data-title="Publications / Research">
+      <article class="block">
+        <ul class="tui-list">
+          <br>
+          <li><strong>Memory as Transformation: LETHE, a Self-Referential GAN-Inspired Architecture</strong> (2026)
+            &mdash; <em>accepted</em>, paper, CIM 2026, October 2026 &mdash; co-authored with Francesco Vitucci and
+            Francesco Scagliola; Conservatorio di Musica &ldquo;N. Piccinni&rdquo;, Bari</li>
+          <li><strong>Four Routes Through Hyperspace: Wavetable Navigation Strategies via Givens Rotations</strong>
+            (2026) &mdash; <em>accepted</em>, short paper, ICSC 2026, October 2026 &mdash; co-authored with Luca
+            Bimbi and Giuseppe Silvi</li>
+          <li id="hutchinson-synthesis"><strong>Hutchinson Synthesis: Parametric Additive Synthesis via Probabilistic Distributions over the
+              N-Dimensional Hypervolume of Time, Frequency, Amplitude and Spatial Direction in HOA</strong> (2026)
+            &mdash; <em>accepted</em>, paper, i3DA 2026 &mdash; co-authored with Nicoletta Andreuccetti</li>
+          <li><strong>Opening mind by opening architecture: analysis strategies</strong> (2024) &mdash; paper, ICSC
+            2024, Vienna &mdash; co-authored with Francesco Vitucci, Giuseppe Silvi, Daniele Annese and Francesco
+            Scagliola; corresponding author: Anthony Di Furia
+            <a class="tui-link" href="https://www.mdw.ac.at/icsc2024/" data-label="Website"></a>
+            <a class="tui-link" href="https://easychair.org/smart-program/ICSC2024/" data-label="Program"></a>
+            <a class="tui-link" href="https://www.mdw.ac.at/icsc2024/img/ICSC2024_Book_of_Abstracts_web.pdf"
+              data-label="Book of Abstracts"></a>
+          </li>
+          <li><strong>Archeotopologie: implementazione critica di memorie senza colore</strong> (2024) &mdash;
+            paper, CIM 2024, Torino &mdash; co-authored with Daniele Annese, Francesco Vitucci, Francesco Scagliola
+            and Giuseppe Silvi; corresponding author: Giuseppe Silvi
+            <a class="tui-link" href="https://www.aimi-musica.org/?page_id=4046" data-label="Program"></a>
+          </li>
+          <li id="fragments-of-extinction-paper"><strong>Fragments of Extinction &mdash; A New Recording Approach in Primary Equatorial Forests</strong>
+            (2014) &mdash; paper, Ecology &amp; Acoustics: Emergent Properties from Community to Landscape,
+            Mus&eacute;um national d&rsquo;Histoire naturelle, Paris &mdash; co-authored with David Monacchi, Ulmar
+            Grafe and Almo Farina; corresponding author: David Monacchi. Role: developed the 3rd-order ambisonics
+            spatial-filter software and built the species catalogue from its analysis
+            <a class="tui-link" href="https://ecoacoustics.sciencesconf.org" data-label="Website"></a>
+          </li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- === AMBISONICS ====================================================== -->
+    <section class="pane content" data-title="Ambisonics">
+      <article class="block">
+        <p>A cross-section of ambisonics work &mdash; compositions, software and research &mdash; spanning
+          first- to seventh-order Higher Order Ambisonics (HOA). Each line links to its full entry.</p>
+        <ul class="tui-list">
+          <br>
+          <li><strong>Hutchinson Synthesis</strong> (2026, paper, i3DA 2026) &mdash; 7th-order HOA spatialization
+            <a class="tui-link" href="#hutchinson-synthesis" data-label="Publications"></a>
+          </li>
+          <li><strong>Spherical Delay</strong> (2020, Sonosfera&reg;) &mdash; delay on spherical harmonics, up to
+            7th-order <a class="tui-link" href="soft.html#spherical-delay" data-label="Software"></a>
+          </li>
+          <li><strong>SBAS &mdash; Steel Bar Ambisonics Synthesizer</strong> (2023) &mdash; 6th-order
+            <a class="tui-link" href="soft.html#sbas" data-label="Software"></a>
+            <a class="tui-link" href="#female-child-system" data-label="Female Child System"></a>
+          </li>
+          <li><strong>Ambisonics Soundscape Composition Tools</strong> (2020, Sonosfera&reg;) &mdash; frequency/time
+            morphing, up to 6th-order <a class="tui-link" href="soft.html#ambisonics-soundscape-tools" data-label="Software"></a>
+          </li>
+          <li><strong>Spaziografo &amp; Spaziogramma</strong> (2019&ndash;2020, Sonosfera&reg;) &mdash; 24K spatial
+            visualization of ambisonic sound sources
+            <a class="tui-link" href="soft.html#spaziografo-spaziogramma" data-label="Software"></a>
+          </li>
+          <li><strong>Piano Selvatico</strong> (2016) &mdash; ambisonics residency, installation and performance
+            <a class="tui-link" href="#piano-selvatico" data-label="Works"></a>
+          </li>
+          <li><strong>Beyond the Human Atom</strong> (2014) &mdash; ambisonic manipulation, gestural control via ECG
+            and Leap Motion
+            <a class="tui-link" href="#beyond-human-atom" data-label="Works"></a>
+            <a class="tui-link" href="soft.html#human-atom" data-label="Software"></a>
+          </li>
+          <li><strong>Osservazioni del vento dell&rsquo;aria della terra e della volta celeste</strong> (2014)
+            &mdash; 3rd-order
+            <a class="tui-link" href="#osservazioni-del-vento" data-label="Works"></a>
+          </li>
+          <li><strong>Fragments of Extinction &mdash; A New Recording Approach</strong> (2014, paper) &mdash;
+            3rd-order spatial-filter software
+            <a class="tui-link" href="#fragments-of-extinction-paper" data-label="Publications"></a>
+          </li>
+          <li><strong>Lampi sull&rsquo;Eni</strong> (2016) &mdash; ambisonic/binaural environment simulation
+            <a class="tui-link" href="#lampi-sulleni" data-label="Works"></a>
+            <a class="tui-link" href="soft.html#teveretermo" data-label="Software"></a>
+          </li>
+          <li><strong>Binaural playback management</strong> (2016, Sonosfera&reg;) &mdash; ambisonics&rarr;binaural
+            conversion <a class="tui-link" href="soft.html#binaural-playback" data-label="Software"></a>
+          </li>
+          <li><strong>Through the space of crying</strong> (2014) &mdash; 1st-order
+            <a class="tui-link" href="#through-space-of-crying" data-label="Works"></a>
+            <a class="tui-link" href="soft.html#tinsound" data-label="Software"></a>
+          </li>
+          <li><strong>De Divina Proportione</strong> (2011) &mdash; 1st-order spatialization assistance
+            <a class="tui-link" href="#de-divina-proportione" data-label="Works"></a>
+          </li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- === COMPOSITIONS, INSTALLATIONS & SOUND DESIGN =================== -->
+    <section class="pane content" data-title="Compositions, Installations &amp; Sound Design">
+      <article class="block">
+        <p>Compositions, sound installations and sound design for theatre, dance and film, 2011&ndash;2024.</p>
+        <ul class="tui-list">
+          <br>
+          <li id="female-child-system"><strong>Female Child System &mdash; Imprisonment</strong> (2023&ndash;2024) &mdash; composition for
+            6th-order ambisonics based on the physical model of a steel bar; software: <a class="tui-link"
+              href="soft.html#sbas" data-label="SBAS"></a>
+            <ul class="tui-list">
+              <li>ICSC 2024, Vienna <a class="tui-link" href="https://www.mdw.ac.at/icsc2024/" data-label="Website"></a>
+              </li>
+              <li>ICMC 2024, Seoul <a class="tui-link" href="https://www.icmc2024.org/schedule-programs"
+                  data-label="Program"></a></li>
+              <li>International Music Day 2023, Estonian Academy of Music and Theatre (Estonia) &mdash; organizer:
+                Hans-G&uuml;nter Lock</li>
+              <li>ISAC-2023, Sonosfera&reg; (Italy) &mdash; finalist <a class="tui-link"
+                  href="https://isac-pesaro.github.io/programma.pdf" data-label="Program"></a></li>
+            </ul>
+          </li>
+
+          <li><strong>Lo stato del disordine delle cose</strong> (2024) &mdash; Electric Sound 2024, Auditorium Nino
+            Rota, Conservatorio N. Piccinni, Bari
+            <a class="tui-link" href="https://www.consba.it/it/1054/eventi/8386/electric-sound-primo-concerto"
+              data-label="Event"></a>
+          </li>
+
+          <li><strong>Ninna Nanna Primitiva</strong> (2023) &mdash; Pietre che cantano, Rassegna di Musica Acusmatica,
+            Monastero di Fonte Avellana, Serra Sant&rsquo;Abbondio
+            <a class="tui-link" href="https://visitaltemarche.it/wp-content/uploads/2023/07/libretto-pietre.pdf"
+              data-label="Program"></a>
+          </li>
+
+          <li><strong>Chimica e Musica in viaggio con Dante</strong> (2022, Torino) &mdash; electroacoustic
+            composition and sonification: a chemical reading of the Divine Comedy &mdash; Teatro e Scienza Festival
+            &ldquo;Orientare i Giovani&rdquo;, Villa Tesoriera
+            <a class="tui-link"
+              href="https://www.teatroescienza.it/Festival2022/9%20-%20Locandina%20CHIMICA%20E%20MUSICA%20IN%20VIAGGIO%20CON%20DANTE.pdf"
+              data-label="Program"></a>
+          </li>
+
+          <li><strong>Il limite della simbiosi</strong> <em>(The Limit of Symbiosis)</em> (2017) &mdash; soundscape
+            composition: field recording, software development, mixing and mastering by Anthony Di Furia; software:
+            <a class="tui-link" href="soft.html#ssm" data-label="SSM"></a> &mdash; CD, rad&rsquo;art (San Romano,
+            Italy) / La Chambre Blanche (Qu&eacute;bec, Canada)
+            <ul class="tui-list">
+              <li>Performed as &ldquo;The Limit of Symbiosis&rdquo;, ICSC 2022, TUS Midlands, Ireland <a
+                  class="tui-link" href="https://csound.com/icsc2022/music.html" data-label="Program"></a></li>
+            </ul>
+          </li>
+
+          <li><strong>Scultura 21</strong> &mdash; &ldquo;Lo spazio in ascolto. La voce della scultura&rdquo; (2021,
+            Pesaro) &mdash; performance/concert with Alessandro Petrolati and Claudio Rastelli, WunderKammer
+            Orchestra, on Giuliano Vangi&rsquo;s sculpture &ldquo;Scultura della Memoria&rdquo;, Piazza Mosca
+            <a class="tui-link"
+              href="http://www.comune.pesaro.pu.it/novita-in-comune/dettaglio/news/lo-spazio-in-ascolto-la-voce-della-scultura/"
+              data-label="News"></a>
+          </li>
+
+          <li><strong>Casella 17</strong> (2019, Roma Fringe Festival) &mdash; electroacoustic composition and sound
+            manipulation software for the theatrical piece, dir. Diana Ripani</li>
+
+          <li><strong>L&rsquo;albero dell&rsquo;asilo</strong> (2019, Pesaro) &mdash; electroacoustic
+            installation/concert &ldquo;Monofonico&rdquo;, geophony/biophony synthesis; Chiesa Annunziata, Pesaro Art
+            Festival
+            <a class="tui-link"
+              href="https://www.comune.pesaro.pu.it/novita-in-comune/dettaglio/news/recinti-arte-fuori-dalla-gabbia/"
+              data-label="News"></a>
+          </li>
+
+          <li><strong>Dusk Chorus</strong> (2017) &mdash; sound design for the film based on fragments of extinction
+            by David Monacchi, dir. Nika Saravanja &amp; Alessandro D&rsquo;Emilia, winner of several international
+            festival awards; software: <a class="tui-link" href="soft.html#ssm" data-label="SSM"></a>
+            <a class="tui-link"
+              href="https://www.conservatoriorossini.it/wp-content/uploads/2015/12/Filmdatasheet_Dusk_Chorus_sett-2017.pdf"
+              data-label="Datasheet"></a>
+            <a class="tui-link" href="https://film.zeligfilm.it/it/zelig/film/dusk-chorus" data-label="Zelig"></a>
+            <a class="tui-link" href="https://www.fragmentsofextinction.org/dusk-chorus-film/" data-label="Project"></a>
+          </li>
+
+          <li><strong>Ken &egrave; morto</strong> (2017, Carrozzerie N.O.T., Rome, dir. Diana Ripani) &mdash;
+            composition and ad-hoc Csound sound-manipulation software modelled on the human heartbeat
+            <a class="tui-link" href="https://compagniaduramadre.wordpress.com/ken-e-morto/" data-label="Project"></a>
+          </li>
+
+          <li><strong>La perdita</strong> (2016&ndash;2017, Teatro Mediterraneo Occupato, Palermo; PalaFolli, Ascoli
+            Piceno; dir. Diana Ripani) &mdash; electroacoustic composition with ad-hoc resonant-filter software for
+            water-sound textures
+            <a class="tui-link" href="https://compagniaduramadre.wordpress.com/la-perdita/" data-label="Project"></a>
+          </li>
+
+          <li id="lampi-sulleni"><strong>Lampi sull&rsquo;Eni</strong> (2016, Liquidi Volumi &mdash; Young Composers, Piazza Tevere,
+            Rome, TeverEterno) &mdash; multichannel electroacoustic composition: granular synthesis and amplitude
+            modulation on manipulated voice; software: <a class="tui-link" href="soft.html#teveretermo"
+              data-label="TeverEterno Multidelay"></a>
+            <a class="tui-link" href="http://www.rossinispace.org/liquidi-volumi-young-composers/" data-label="Event"></a>
+            <a class="tui-link" href="https://eternaltiber.net/young-composers-commission-ycc/" data-label="Commission"></a>
+            <a class="tui-link" href="https://www.youtube.com/watch?v=TRLX7y1MX9M&amp;t=156s" data-label="Video"></a>
+          </li>
+
+          <li id="piano-selvatico"><strong>Piano Selvatico</strong> (2016, artist residency &amp; installation, Pianpicollo Selvatico,
+            Levice, Cuneo) &mdash; field recording, software development, electroacoustic composition and sound
+            installation; software: <a class="tui-link" href="soft.html#animal-construction"
+              data-label="Animal Construction"></a>, <a class="tui-link" href="soft.html#ssm" data-label="SSM"></a>
+            <ul class="tui-list">
+              <li>Residency &amp; installation, Pianpicollo Selvatico <a class="tui-link"
+                  href="https://www.pianpicollo.org/portfolio/piano-selvatico" data-label="Project"></a></li>
+              <li>ICSC 2019, Teatro di Cagli <a class="tui-link" href="https://csound.com/icsc2019/concerts.html"
+                  data-label="Program"></a></li>
+              <li>sfSound Festival 2019, Victoria Theater, San Francisco <a class="tui-link"
+                  href="http://sfsound.org/tape.html/Fest2019.html" data-label="Event"></a></li>
+              <li>Csound30, Maynooth University, Ireland (2016) <a class="tui-link" href="https://csound.com/csound30/"
+                  data-label="Event"></a></li>
+              <li><a class="tui-link" href="https://www.youtube.com/watch?v=cGGdI_HBQdc" data-label="Video"></a></li>
+            </ul>
+          </li>
+
+          <li><strong>Ananke</strong> (2015) &mdash; music and sound design for the film by Claudio Romano
+            (Arcopinto / Kio Film / Minimal Cinema): synthetic sounds standing in for concrete ones (crickets, wind,
+            rain, fire)
+            <a class="tui-link" href="http://pablodistribuzione.blogspot.com/2015/06/ananke-di-claudio-romano.html"
+              data-label="Info"></a>
+          </li>
+
+          <li id="beyond-human-atom"><strong>Beyond the Human Atom</strong> (2014, artist residency, La Chambre Blanche, Qu&eacute;bec,
+            Canada) &mdash; ambisonic sound-manipulation and spatialization installation, gestural control via ECG and
+            Leap Motion; software: <a class="tui-link" href="soft.html#human-atom" data-label="Human Atom"></a>
+            <a class="tui-link" href="https://www.chambreblanche.qc.ca/en/news/22187/" data-label="News"></a>
+            <a class="tui-link" href="http://www.rad-art.org/artists/Anthony_di_Furia/beyond_the_human_atom.pdf"
+              data-label="Info"></a>
+          </li>
+
+          <li id="through-space-of-crying"><strong>Through the space of crying</strong> (2014, Linux Audio Conference, ZKM Cube, Karlsruhe,
+            Germany) &mdash; electroacoustic composition/improvisation inspired by tin as a chemical element;
+            software: <a class="tui-link" href="soft.html#tinsound" data-label="TinSound"></a>
+            <a class="tui-link" href="https://zkm.de/en/event/2014/05/linux-audio-conference-2014-concert-i"
+              data-label="Program"></a>
+            <a class="tui-link"
+              href="http://lac.linuxaudio.org/2014/program?pdb_filterauthor=94&amp;mode=list&amp;details=1"
+              data-label="LAC 2014 program"></a>
+          </li>
+
+          <li id="osservazioni-del-vento"><strong>Osservazioni del vento dell&rsquo;aria della terra e della volta celeste</strong> (2014,
+            Pesaro, Hangartfest) &mdash; electroacoustic composition for contemporary dance built from a single
+            mechanical sound recorded at the Pesaro Observatory, conceived by Roberto Vecchiarelli and Eugenio
+            Giordani
+            <a class="tui-link" href="https://postscena.wordpress.com/tag/anthony-di-furia/" data-label="Info"></a>
+          </li>
+
+          <li><strong>Meteophonie</strong> (2013, Pesaro, Conservatorio Rossini) &mdash; sonification and live
+            electronics, installation/performance in quadraphony on weather data; conceived by Eugenio Giordani,
+            performed with Stefano Vinciarelli and Niccol&ograve; Di Gregorio</li>
+
+          <li><strong>La Fuga</strong> (2013, Festival Ville e Castella, Pesaro-Urbino) &mdash; electroacoustic
+            theatrical adaptation of Gao Xingjian&rsquo;s novel, performed in the presence of the Nobel-laureate
+            author; software: <a class="tui-link" href="soft.html#pentagranulator" data-label="Pentagranulator"></a>
+            <a class="tui-link"
+              href="https://www.ilrestodelcarlino.it/pesaro/cronaca/2013/07/06/915684-scena_fuga.shtml"
+              data-label="Article"></a>
+          </li>
+
+          <li><strong>Soundwalk &mdash; Percorsi Cittadini</strong> (2012&ndash;2013, Pesaro, Conservatorio Rossini)
+            &mdash; binaural field recording and guided soundwalks, conceived by Eugenio Giordani, with Stefano
+            Vinciarelli and Niccol&ograve; Di Gregorio</li>
+
+          <li><strong>Erratica #1</strong> (2012, Conservatorio Rossini, Pesaro) &mdash; sound installation, ad-hoc
+            Csound synthesis, with Stefano Vinciarelli and Niccol&ograve; Di Gregorio, supervised by Eugenio Giordani
+          </li>
+
+          <li><strong>Erratica #2 &mdash; Carta bianca</strong> (2012&ndash;2013, Parco Ranghiasci, Gubbio) &mdash;
+            sound installation, subtractive synthesis on recorded paper sounds, with Stefano Vinciarelli
+            <a class="tui-link"
+              href="http://www.umbria24.it/cultura/gubbio-installazioni-dautore-per-illuminare-il-natale-al-parco-ranghiasci-arriva-lumen"
+              data-label="Article"></a>
+          </li>
+
+          <li><strong>Salom&egrave;</strong> (Oscar Wilde) (2012, Teatro di Fano; music/sound direction: David
+            Monacchi) &mdash; software and live electronics: an ad-hoc physical-modelling multi-resonator simulating
+            the cistern in which Jochanaan is imprisoned
+            <a class="tui-link" href="http://www.teatrodellafortuna.it/index.php/archivio/37-stagione-11-12/fanoteatro-11-12/80-salome"
+              data-label="Info"></a>
+          </li>
+
+          <li><strong>Bestiario filologico e fantastico</strong> (2011&ndash;2012, Ente Olivieri, Pesaro, with
+            Ermanno Cavazzoni) &mdash; conference-performance, software development supervised by Eugenio Giordani,
+            real-time manipulation of a spatialized (quadraphonic) baritone sax; software: <a class="tui-link"
+              href="soft.html#pentagranulator" data-label="Pentagranulator"></a>
+            <a class="tui-link"
+              href="http://www.oliveriana.pu.it/fileadmin/grpmnt/5618/Eventi/Salone_della_parola_-_2/Salone_della_parola_-_2/Salone_2011_Programma.pdf"
+              data-label="Program"></a>
+          </li>
+
+          <li id="de-divina-proportione"><strong>De Divina Proportione</strong> (2011, Simone Sorini &amp; David Monacchi, inspired by Luca
+            Pacioli, Conservatorio Rossini &mdash; Progetto Orfeo) &mdash; 1st-order ambisonic spatialization
+            assistance and binaural recording
+            <a class="tui-link"
+              href="http://www.pietrodegregorio.it/wp-content/uploads/2011/06/Programma_Progetto_Orfeo_2011.pdf"
+              data-label="Program"></a>
+          </li>
+
+          <li><strong>URLO &mdash; Urbino Laptop Orchestra</strong> (2011) &mdash; live electronics and software
+            development for several concerts and micro-festivals (Fossombrone, Furlo, Fabriano), directed by
+            Alessandro Petrolati; software: <a class="tui-link" href="soft.html#pentagranulator"
+              data-label="Pentagranulator"></a>
+            <a class="tui-link" href="http://www.alessandro-petrolati.it/urlo/" data-label="URLO"></a>
+          </li>
+
+        </ul>
+      </article>
+    </section>
+
+    <!-- === RECORDING & LIVE ENGINEERING =================================== -->
+    <section class="pane content" data-title="Recording &amp; Live Engineering">
+      <article class="block">
+        <p>Recording, mixing, mastering and live sound engineering for other artists and ensembles.</p>
+        <ul class="tui-list">
+          <br>
+          <li><strong>The Stuff Is Here</strong> &mdash; Peppers and the Jellies (2019) &mdash; recording, mixing,
+            mastering
+            <a class="tui-link"
+              href="https://www.almanmusic.com/en/labels/cose-sonore/item/216-the-stuff-is-here-new-album-by-pepper-and-the-jellies"
+              data-label="Label"></a>
+          </li>
+          <li><strong>L&rsquo;Equilibrio dei Numeri Primi</strong> &mdash; Metanoia (2019) &mdash; recording, mixing,
+            mastering &mdash; Artis Records / Cramps Music</li>
+          <li><strong>Nel Vivo</strong> &mdash; Camilla Dell&rsquo;Agnola &amp; Valentina Turrini (2018) &mdash;
+            field recording &amp; editing (A. Di Furia); mixing/mastering/supervision (D. Monacchi) &mdash; TUTL,
+            Faroe Islands</li>
+          <li><strong>Sinfonico</strong> &mdash; Paolo Di Sabatino, Daniele Mencarelli, Glauco Di Sabatino &amp;
+            Orchestra Sinfonica Abruzzese (2018) &mdash; mixing, mastering &mdash; Incipit
+            <a class="tui-link" href="https://www.ibs.it/sinfonico-cd-paolo-di-sabatino/e/8058333573267"
+              data-label="Album"></a>
+            <a class="tui-link" href="https://www.youtube.com/watch?v=1aaSqpg37is" data-label="Video"></a>
+          </li>
+          <li><strong>Trii</strong> &mdash; V. Ferroni / R. Zandonai; L. Venturi, I. Scarponi, M. Venturi (2017)
+            &mdash; multitrack recording assistant &amp; full edit, for David Monacchi &mdash; Teatro di Todi;
+            Discantica (CD + vinyl)</li>
+          <li><strong>The Place Between Things</strong> &mdash; Jano (2017) &mdash; sound design, composition,
+            recording, mixing, mastering &mdash; Via Veneto Jazz
+            <a class="tui-link" href="http://www.viavenetojazz.it/catalogue/item/167-vvj-118-jano-the-place-between-things"
+              data-label="Label"></a>
+          </li>
+          <li><strong>Baadaye Pinocchio d&rsquo;Africa</strong> &mdash; Paolo Di Sabatino (2017) &mdash; mixing,
+            mastering</li>
+          <li><strong>Trace Elements: Electric Trip (Live in Teramo Again)</strong> &mdash; Di Sabatino / Galvez /
+            Chambers (2016) &mdash; recording, mixing, mastering &mdash; Nicolosi Distribution</li>
+          <li><strong>Sinking Lads</strong> &mdash; EcP (2016) &mdash; recording, mixing, mastering</li>
+          <li><strong>The Warm Feeling of Cold</strong> &mdash; Alex Paolini (2013) &mdash; sound design,
+            composition, recording, mixing, mastering</li>
+          <br>
+          <li><strong>Live sound engineering</strong> &mdash; PA installation and FOH engineering for 35+ live
+            events (2018&ndash;2020) across central Italy, including multi-day festivals (FranticFest, Festival del
+            Saltarello), the Nova Amadeus Symphony Orchestra, and artists such as Giovanni Truppi, Mr. Rain and
+            Rosalia De Souza; technical supervision and composer support at ICSC 2019 (5th International Csound
+            Conference, Cagli)
+            <a class="tui-link" href="https://csound.com/icsc2019/" data-label="ICSC 2019"></a>
+          </li>
+          <li><strong>Sound technician</strong> &mdash; eco-acoustic concerts by David Monacchi &amp; Walter Branchi
+            (Udine, Trieste, 2011)</li>
+        </ul>
+      </article>
+    </section>
+
+  </main>
+
+  <footer class="status" role="status" aria-live="polite">
+    <span><a class="tui-link" href="https://www.anthonydifuria.com" data-label="adf"></a>
+      <a class="tui-link" href="https://github.com/anthonydifuria" data-label="gh"></a>
+      <a class="tui-link" href="https://www.youtube.com/@anthonydifuria5300/videos" data-label="yt"></a>
+    </span>
+    <span>[<span class="cursor">▮</span>] adf © 2026 </span>
+  </footer>
+  </div>
+</body>
+
+</html>

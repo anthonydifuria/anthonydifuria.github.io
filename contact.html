@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>adf - contacts</title>
+  <link rel="stylesheet" href="retro-tui.css">
+  <script type="module" src="js/include-partials.js"></script>
+  <script src="js/palette.js" defer></script>
+</head>
+
+<body>
+
+  <div data-include="partials/header.html" style="display:block;min-height:56px"></div>
+
+  <!-- MAIN -->
+  <main>
+    <!-- IMG -->
+    <section class="pane image-pane" data-title="">
+      <img src="img/logo2.png" alt="" height="auto" width="100%">
+    </section>
+
+    <section class="pane content" data-title="contacts">
+      <article id="intro" class="block" aria-labelledby="h-intro">
+
+        <ul class="tui-list">
+          <br>
+          <li>
+            <strong>anthony di furia</strong> — anthonydifuria [dot] sound [at] gmail [dot] com
+          </li>
+        </ul>
+        <div class="rule"></div>
+
+        <ul class="tui-list">
+          <li>
+            <a class="tui-link" href="https://github.com/anthonydifuria" data-label="GitHub"></a> -
+            <a class="tui-link" href="https://www.youtube.com/@anthonydifuria5300/videos" data-label="YouTube"></a>
+          </li>
+        </ul>
+
+        <div class="rule"></div>
+      </article>
+    </section>
+
+  </main>
+
+  <footer class="status" role="status" aria-live="polite">
+    <span><a class="tui-link" href="https://www.anthonydifuria.com" data-label="adf"></a>
+      <a class="tui-link" href="https://github.com/anthonydifuria" data-label="gh"></a>
+      <a class="tui-link" href="https://www.youtube.com/@anthonydifuria5300/videos" data-label="yt"></a>
+    </span>
+    <span>[<span class="cursor">▮</span>] adf © 2026 </span>
+  </footer>
+  </div>
+</body>
+
+</html>

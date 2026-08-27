@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>adf - software</title>
+  <link rel="stylesheet" href="retro-tui.css">
+  <script type="module" src="js/include-partials.js"></script>
+  <script src="js/palette.js" defer></script>
+
+</head>
+
+<body>
+  <div data-include="partials/header.html" style="display:block;min-height:56px"></div>
+
+  <!-- MAIN -->
+  <main>
+    <!-- IMG -->
+    <section class="pane image-pane" data-title="">
+      <img src="img/logo2.png" alt="" height="auto" width="100%">
+    </section>
+
+    <!-- === RESEARCH & CUSTOM TOOLS ========================================= -->
+    <section class="pane content" data-title="Research &amp; Custom Tools">
+      <article class="block">
+        <p>Reusable instruments and research software, each built for &mdash; and often reused across &mdash; more
+          than one piece.</p>
+        <ul class="tui-list">
+          <br>
+          <li id="csound7-max"><strong>csound7-max</strong> (2026) &mdash; Csound 7 embedded as a monolithic,
+            statically-linked Max/MSP external (C, CMake; macOS universal + Windows). Automatic audio inlet/outlet
+            sizing derived from .csd files, with a message protocol for channel management, event triggering and
+            hot-recompilation
+            <a class="tui-link" href="https://github.com/anthonydifuria/csound7-max" data-label="GitHub"></a>
+          </li>
+          <li id="csound7-pd"><strong>csound7-pd</strong> (2026) &mdash; Csound 7 embedded as a monolithic,
+            statically-linked Pure Data / plugdata external (<code>csound7~</code>; C, CMake; macOS universal,
+            Linux x86_64, Windows). Bundles Csound directly into the binary, no separate installation required;
+            ships with runnable examples (oscillators, audio I/O, MIDI synthesis, table-based playback)
+            <a class="tui-link" href="https://github.com/anthonydifuria/csound7-pd" data-label="GitHub"></a>
+          </li>
+          <li id="sbas"><strong>SBAS &mdash; Steel Bar Ambisonics Synthesizer</strong> (2023) &mdash; Csound,
+            6th-order ambisonics. Physical model of a steel bar (5&nbsp;cm &times; 200&nbsp;cm) driven by 7
+            oscillators, combined with AM/FM/additive/granular synthesis matrices and multiple spatialization
+            techniques (point-source, mirrored, diffuse, random). Used in: <em>Female Child System &mdash;
+              Imprisonment</em>
+          </li>
+          <li id="ssm"><strong>SSM &mdash; SoundScape Manipulation</strong> (2014&ndash;2017) &mdash;
+            Csound/SuperCollider. Progressive time-stretch, frequency-shift, spectrum inversion and pitch-shift for
+            transforming field recordings. Used in: <em>Il limite della simbiosi</em>, <em>Piano Selvatico</em>,
+            <em>Dusk Chorus</em>
+            <a class="tui-link" href="https://github.com/anthonydifuria/SSM" data-label="GitHub"></a>
+          </li>
+          <li id="animal-construction"><strong>Animal Construction</strong> (2015) &mdash; Csound/SuperCollider
+            physical-modelling synthesis reconstructing bird and insect sounds from acoustic analysis, transformable
+            up to unrecognisability. Used in: <em>Piano Selvatico</em></li>
+          <li id="tinsound"><strong>TinSound &mdash; Tin Meta-Sonification Synth</strong> (2014&ndash;2015) &mdash;
+            SuperCollider, First-Order Ambisonics. Sonification of tin&rsquo;s physical/chemical properties
+            (density, speed of sound, state of matter, boiling/melting point, atomic radius and number) driving a
+            complex additive synthesis engine. Used in: <em>Through the space of crying</em>
+            <a class="tui-link" href="https://github.com/anthonydifuria/TinSound" data-label="GitHub"></a>
+          </li>
+          <li id="human-atom"><strong>Human Atom</strong> (2014) &mdash; SuperCollider. Ambisonic sound manipulation
+            and spatialization controlled through ECG and Leap Motion gestural input. Used in: <em>Beyond the Human
+              Atom</em>
+            <a class="tui-link" href="https://github.com/anthonydifuria/HumanAtom" data-label="GitHub"></a>
+          </li>
+          <li id="pentagranulator"><strong>Pentagranulator</strong> (2011) &mdash; Csound real-time granular tool:
+            four simultaneous granulators re-processed by a final granulator for meta-granulation. Used in: <em>URLO
+              &mdash; Urbino Laptop Orchestra</em>, <em>La Fuga</em>, <em>Bestiario filologico e fantastico</em>
+            <a class="tui-link" href="https://github.com/anthonydifuria/Pentagranulator" data-label="GitHub"></a>
+          </li>
+          <li id="metatron"><strong>Metatron</strong> (2014) &mdash; SuperCollider. Sound generation based on the
+            geometric figure known as Metatron&rsquo;s Cube: 13 sinusoids at the fundamental frequency, 4 at scaled
+            frequencies and 12 derived from cycloids traced within the geometry, combined with granular, phase/
+            amplitude-modulation and additive synthesis. Originally written for his Music &amp; New Technologies
+            thesis at Conservatorio Rossini, Pesaro
+            <a class="tui-link" href="https://github.com/anthonydifuria/metatron" data-label="GitHub"></a>
+          </li>
+          <li id="teveretermo"><strong>TeverEterno Multidelay</strong> (2016) &mdash; Csound. Ambisonic/binaural
+            environment simulation and reconstruction tool, developed as a composition aid for the Liquidi Volumi
+            TeverEterno competition and tested in the SPACE lab, Conservatorio Rossini, Pesaro; direct precursor of
+            RealDelayrium. Used in: <em>Lampi sull&rsquo;Eni</em></li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- === SONOSFERA — SYSTEMS & INTEGRATION ============================= -->
+    <section class="pane content" data-title="Sonosfera&reg; &mdash; Systems &amp; Integration">
+      <article class="block">
+        <p>Systems, tools and integration work for the Sonosfera&reg; museum installation (Pesaro) and the
+          <em>Fragments of Extinction</em> project by David Monacchi.</p>
+        <ul class="tui-list">
+          <br>
+          <li id="spaziografo-spaziogramma"><strong>Spaziografo &amp; Spaziogramma</strong> (2019&ndash;2020) &mdash; Processing/Csound. 24K-
+            resolution spatial visualization of ambisonic sound sources: spherical-harmonics analysis, ambisonics
+            decoding, space/frequency/time analysis and 360&deg; visualization inside the Sonosfera&reg;
+            <a class="tui-link" href="https://www.pesaromusei.it/sonosfera/" data-label="Project page"></a>
+          </li>
+          <li id="spherical-delay"><strong>Spherical Delay</strong> (2020) &mdash; JUCE/C++ VST plugin: delay line on spherical harmonics
+            up to 7th-order ambisonics, for content creation in Sonosfera&reg;
+            <a class="tui-link" href="https://www.pesaromusei.it/sonosfera/" data-label="Project page"></a>
+          </li>
+          <li id="ambisonics-soundscape-tools"><strong>Ambisonics Soundscape Composition Tools</strong> (2020) &mdash; SuperCollider. Frequency and
+            time morphing of soundscapes up to 6th-order ambisonics, built for <em>Fragments of Extinction</em>
+            <a class="tui-link" href="https://www.pesaromusei.it/sonosfera/" data-label="Project page"></a>
+          </li>
+          <li><strong>Sonosfera&reg; control software</strong> (2020) &mdash; Arduino / Bash. Museum-operator
+            control and management system for the Sonosfera&reg;, Pesaro
+            <a class="tui-link" href="https://www.pesaromusei.it/sonosfera/" data-label="Project page"></a>
+          </li>
+          <li><strong>Content creation pipeline</strong> (2019&ndash;2020) &mdash; Processing, MAX/MSP, JUCE/C++,
+            FFmpeg, GLSL, Premiere, Millumin, GIMP: spectrogram generation, image creation/resizing, video editing
+            <a class="tui-link" href="https://www.pesaromusei.it/sonosfera/" data-label="Project page"></a>
+          </li>
+          <li><strong>System integration</strong> (2019&ndash;2020) &mdash; Dante, DMX devices, 24K projection
+            (Reaper/Millumin): management of the full electroacoustic chain
+            <a class="tui-link" href="https://www.pesaromusei.it/sonosfera/" data-label="Project page"></a>
+          </li>
+          <li><strong>Forced-air control</strong> (2019&ndash;2020) &mdash; browser/DMX control of internal air
+            recirculation
+            <a class="tui-link" href="https://www.pesaromusei.it/sonosfera/" data-label="Project page"></a>
+          </li>
+          <li><strong>Eco-acoustic theatre @ Naturama</strong> (2017&ndash;2018, Svendborg, Denmark) &mdash; Bash
+            scripts / Millumin: automated show control for the <em>Fragments of Extinction</em> program at the
+            natural history museum
+            <a class="tui-link" href="https://www.fragmentsofextinction.org/theatre/" data-label="Theatre"></a>
+          </li>
+          <li id="binaural-playback"><strong>Binaural playback management</strong> (2016) &mdash; OSC, Reaper, SuperCollider:
+            ambisonics&rarr;binaural conversion and show control, presented at the IUCN World Conservation Congress
+            2016, Hawaii</li>
+          <li><strong>Leap Motion event generator</strong> (2015, Trento) &mdash; SuperCollider: synthetic
+            sound-event generator controlled via Leap Motion for the eco-acoustic theatre prototype hosted at MUSE
+          </li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- === DIDACTIC SOFTWARE & TUTORIALS =================================== -->
+    <section class="pane content" data-title="Didactic Software &amp; Tutorials">
+      <article class="block">
+        <p>Tools and code written specifically for music-technology education &mdash; Great Eugenio, the Csound /
+          SuperCollider tutorials and the chemistry-sonification collaboration &mdash; are detailed on the <a
+            class="tui-link" href="teaching.html" data-label="Teaching"></a> page.</p>
+      </article>
+    </section>
+
+    <!-- === APPS (iOS / AUDIO UNITS) ======================================= -->
+    <section class="pane content" data-title="Apps (iOS / Audio Units)">
+      <article class="block">
+        <ul class="tui-list">
+          <br>
+          <li><strong>Infinitum Delayrium</strong> (2022) &mdash; serial multi-delay AUv3: delay-time control,
+            feedback matrix, low-pass and resonant filters
+            <a class="tui-link" href="https://apps.apple.com/us/app/infinitum-delayrium/id1578118749"
+              data-label="App Store"></a>
+          </li>
+          <li><strong>MolochVox</strong> (2021) &mdash; pitch/frequency-shifter suite, 5 AUv3 units: pitch shift,
+            frequency shift, harmonic/inverse-harmonic/geometric series, spectral freeze and crossfade
+            <a class="tui-link" href="https://apps.apple.com/us/app/molochvox/id1569682849" data-label="App Store"></a>
+          </li>
+          <li><strong>MoDelayrium</strong> (2021) &mdash; 10-plugin AUv3 suite: chorus/flanger, doppler, reverb,
+            tremolo, delay modulator, room filter, simple delay, space
+            <a class="tui-link" href="https://apps.apple.com/us/app/modelayrium/id1559101828" data-label="App Store"></a>
+          </li>
+          <li><strong>Dystopia</strong> (2020) &mdash; modular experimental distortion, 7 AUv3 units
+            <a class="tui-link" href="https://apps.apple.com/gb/app/dystopia/id1524937873" data-label="App Store"></a>
+          </li>
+          <li><strong>RealDelayrium</strong> (2019) &mdash; parallel multi-delay AUv3, 6 delay lines, resonant
+            filter, frequency modulation, air filter
+            <a class="tui-link" href="https://apps.apple.com/gb/app/realdelayrium/id1485819506"
+              data-label="App Store"></a>
+          </li>
+          <li><strong>Delayrium</strong> (2019) &mdash; parallel multi-delay (Mono / Stereo / UNUS), 6 delay lines
+            with tempo, panning and amplitude modulation
+            <a class="tui-link" href="https://apps.apple.com/gb/app/delayrium/id1461506890" data-label="App Store"></a>
+          </li>
+          <li><strong>Esoteric Synth</strong> (2019) &mdash; generative/additive/granular synth, 5 oscillators
+            through two pentagonal modulation matrices
+            <a class="tui-link" href="https://apps.apple.com/gb/app/esoteric-synth/id1454932009"
+              data-label="App Store"></a>
+          </li>
+          <li><strong>MonoGranulator</strong> (2018) &mdash; granular synthesis for live electronics (Standalone +
+            AUv3)
+            <a class="tui-link" href="https://apps.apple.com/us/app/monogranulator/id1436174474"
+              data-label="App Store"></a>
+            <a class="tui-link" href="https://github.com/anthonydifuria/monogranulator" data-label="GitHub"></a>
+          </li>
+        </ul>
+      </article>
+    </section>
+
+  </main>
+
+  <footer class="status" role="status" aria-live="polite">
+    <span><a class="tui-link" href="https://www.anthonydifuria.com" data-label="adf"></a>
+      <a class="tui-link" href="https://github.com/anthonydifuria" data-label="gh"></a>
+      <a class="tui-link" href="https://www.youtube.com/@anthonydifuria5300/videos" data-label="yt"></a>
+    </span>
+    <span>[<span class="cursor">▮</span>] adf © 2026 </span>
+  </footer>
+  </div>
+</body>
+
+</html>
